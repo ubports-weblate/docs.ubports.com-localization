@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: UBports 1.0\n"
 "Report-Msgid-Bugs-To: ubports-community@list.ubports.com\n"
 "POT-Creation-Date: 2018-01-02 16:17-0600\n"
-"PO-Revision-Date: 2018-01-02 22:53+0000\n"
-"Last-Translator: Florian Leeber <flori@bin.org.in>\n"
+"PO-Revision-Date: 2018-01-02 23:00+0000\n"
+"Last-Translator: Weblate Admin <flori-weblate@bin.org.in>\n"
 "Language-Team: German <https://translate.ubports.com/projects/ubports-"
 "webpages/ubports-docs/de/>\n"
 "Language: de\n"
@@ -981,7 +981,7 @@ msgstr "User Guide"
 
 #: ../docs.ubports.com/index.rst:32
 msgid "Contribute"
-msgstr "Contribute"
+msgstr "Beitragen"
 
 #: ../docs.ubports.com/index.rst:40 ../docs.ubports.com/appdev/index.rst:2
 msgid "App development"
@@ -2195,7 +2195,7 @@ msgstr ""
 
 #: ../docs.ubports.com/appdev/clickable/cordova.rst:30
 msgid "Configure Clickable"
-msgstr "Configure Clickable"
+msgstr "Clickable konfigurieren"
 
 #: ../docs.ubports.com/appdev/clickable/cordova.rst:32
 msgid "Download *clickable* and add it to your ``PATH``."
