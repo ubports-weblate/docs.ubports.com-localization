@@ -14,7 +14,7 @@ SOURCES=$(wildcard $(SOURCE_DIR)*.rst)
 PAGES=$(basename $(notdir $(SOURCES)))
 
 # Name of Gettext templates
-TEMPLATES=$(addprefix locale/,$(addsuffix .pot,$(PAGES)))
+TEMPLATES=$(addprefix gettext/,$(addsuffix .pot,$(PAGES)))
 
 # Symlinked fake mo files
 FAKE_MOFILES=$(foreach lang,$(LANGUAGES),$(addsuffix .mo, $(addprefix translated/$(lang)/LC_MESSAGES/, $(PAGES))))
@@ -36,19 +36,18 @@ docs/%/conf.py: $(SOURCE_DIR)conf.py Makefile $(SOURCES)
 	@rm -f $@
 	@sed 's/#language = None/language = "$*"\nlocale_dirs = ["..\/..\/translated\/"]/' $< > $@
 
-locale/%.pot: $(SOURCES)
+gettext/%.pot: $(SOURCES)
 	@make -C $(SOURCE_DIR) gettext BUILDDIR=`pwd`
-	@mv gettext/ locale/
 
 po/documentation.pot: $(TEMPLATES)
 	@echo "UPDATE $@"
 	@mkdir po
-	@msgcat -o $@ $(wildcard locale/*.pot)
+	@msgcat -o $@ $(wildcard gettext/*.pot)
 	@sed -i 's/Report-Msgid-Bugs-To: [^"]*/Report-Msgid-Bugs-To: ubports-community@list.ubports.com\\n/' $@
 
 po/%.po: po/documentation.pot
 	@echo "UPDATE $@"
-	@if [ ! -f $@ ] ; then msginit --no-translator -i $< -o $@ ; fi
+	@if [ ! -f $@ ] ; then cp $< $@ ; fi
 	@msgmerge --previous -U $@ -C $@ $<
 
 po/%.mo: po/%.po
