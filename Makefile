@@ -30,9 +30,6 @@ all: $(FAKE_MOFILES) $(MOFILES) $(CONFIGS)
 SECONDARY: $(POFILES) $(INDEXFILES)
 .phony: all html $(addprefix html-,$(LANGUAGES))
 
-clean:
-	@rm locale/ po/ translated/ docs/ output/ -r
-
 docs/%/conf.py: $(SOURCE_DIR)conf.py Makefile $(SOURCES)
 	@mkdir -p docs/$*
 	@cd docs/$* && ln -sf ../../$(SOURCE_DIR)* .
