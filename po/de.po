@@ -8,18 +8,20 @@ msgstr ""
 "Project-Id-Version: UBports 1.0\n"
 "Report-Msgid-Bugs-To: ubports-community@list.ubports.com\n"
 "POT-Creation-Date: 2018-01-02 16:17-0600\n"
-"PO-Revision-Date: 2018-01-02 16:17-0600\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
-"Language: en_US\n"
+"PO-Revision-Date: 2018-01-02 22:53+0000\n"
+"Last-Translator: Florian Leeber <flori@bin.org.in>\n"
+"Language-Team: German <https://translate.ubports.com/projects/ubports-"
+"webpages/ubports-docs/de/>\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.15\n"
 
 #: ../docs.ubports.com/contribute/bugreporting.rst:2
 msgid "Bug reporting"
-msgstr "Bug reporting"
+msgstr "Fehler melden"
 
 #: ../docs.ubports.com/contribute/bugreporting.rst:4
 msgid ""
@@ -35,7 +37,7 @@ msgstr ""
 
 #: ../docs.ubports.com/contribute/bugreporting.rst:7
 msgid "Get the latest Ubuntu Touch"
-msgstr "Get the latest Ubuntu Touch"
+msgstr "Das aktuellste Ubuntu Touch bekommen"
 
 #: ../docs.ubports.com/contribute/bugreporting.rst:9
 msgid ""
@@ -55,14 +57,14 @@ msgstr ""
 
 #: ../docs.ubports.com/contribute/bugreporting.rst:12
 msgid "Check if the bug is already reported"
-msgstr "Check if the bug is already reported"
+msgstr "Überprüfe ob der Fehler bereits gemeldet wurde"
 
 #: ../docs.ubports.com/contribute/bugreporting.rst:14
 msgid ""
 "Open up the bug tracker for `ubuntu-touch <https://github.com/ubports/ubuntu-"
 "touch>`_."
 msgstr ""
-"Open up the bug tracker for `ubuntu-touch <https://github.com/ubports/ubuntu-"
+"Öffnen des Bugtrackers für `ubuntu-touch <https://github.com/ubports/ubuntu-"
 "touch>`_."
 
 #: ../docs.ubports.com/contribute/bugreporting.rst:16
@@ -113,7 +115,7 @@ msgstr ""
 
 #: ../docs.ubports.com/contribute/bugreporting.rst:26
 msgid "Getting Logs"
-msgstr "Getting Logs"
+msgstr "Logs bekommen"
 
 #: ../docs.ubports.com/contribute/bugreporting.rst:28
 msgid ""
@@ -135,7 +137,7 @@ msgstr ""
 
 #: ../docs.ubports.com/contribute/bugreporting.rst:32
 msgid "Now, you can get the two most important logs."
-msgstr "Now, you can get the two most important logs."
+msgstr "Jetzt kannst Du die beiden wichtigsten Logs bekommen."
 
 #: ../docs.ubports.com/contribute/bugreporting.rst:35
 msgid "dmesg"
