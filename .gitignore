@@ -1,0 +1,4 @@
+*.swp
+*~
+.translation_index
+/output/

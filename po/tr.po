@@ -1,0 +1,3364 @@
+# English translations for UBports package.
+# Copyright (C) 2017, The UBports project (Creative Commons BY-SA 4.0)
+# This file is distributed under the same license as the UBports package.
+# Automatically generated, 2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: UBports 1.0\n"
+"Report-Msgid-Bugs-To: ubports-community@list.ubports.com\n"
+"POT-Creation-Date: 2018-01-02 16:17-0600\n"
+"PO-Revision-Date: 2018-01-02 16:17-0600\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../docs.ubports.com/contribute/bugreporting.rst:2
+msgid "Bug reporting"
+msgstr "Bug reporting"
+
+#: ../docs.ubports.com/contribute/bugreporting.rst:4
+msgid ""
+"This page contains information to help you help us by reporting an "
+"actionable bug for Ubuntu Touch. It does NOT contain information on "
+"reporting bugs in apps, most of the time their entry in the OpenStore will "
+"specify where and how to do that."
+msgstr ""
+"This page contains information to help you help us by reporting an "
+"actionable bug for Ubuntu Touch. It does NOT contain information on "
+"reporting bugs in apps, most of the time their entry in the OpenStore will "
+"specify where and how to do that."
+
+#: ../docs.ubports.com/contribute/bugreporting.rst:7
+msgid "Get the latest Ubuntu Touch"
+msgstr "Get the latest Ubuntu Touch"
+
+#: ../docs.ubports.com/contribute/bugreporting.rst:9
+msgid ""
+"This might seem obvious, but it's easy to miss. Go to (Settings - Updates) "
+"and make sure that your device doesn't have any Ubuntu updates available. If "
+"not, continue through this guide. If so, update your device and try to "
+"reproduce the bug. If it still occurs, continue through this guide. If not, "
+"do a little dance! The bug has already been fixed and you can continue using "
+"Ubuntu Touch."
+msgstr ""
+"This might seem obvious, but it's easy to miss. Go to (Settings - Updates) "
+"and make sure that your device doesn't have any Ubuntu updates available. If "
+"not, continue through this guide. If so, update your device and try to "
+"reproduce the bug. If it still occurs, continue through this guide. If not, "
+"do a little dance! The bug has already been fixed and you can continue using "
+"Ubuntu Touch."
+
+#: ../docs.ubports.com/contribute/bugreporting.rst:12
+msgid "Check if the bug is already reported"
+msgstr "Check if the bug is already reported"
+
+#: ../docs.ubports.com/contribute/bugreporting.rst:14
+msgid ""
+"Open up the bug tracker for `ubuntu-touch <https://github.com/ubports/ubuntu-"
+"touch>`_."
+msgstr ""
+"Open up the bug tracker for `ubuntu-touch <https://github.com/ubports/ubuntu-"
+"touch>`_."
+
+#: ../docs.ubports.com/contribute/bugreporting.rst:16
+msgid ""
+"First, you'll need to make sure that the bug you're trying to report hasn't "
+"been reported before. Search through the bugs reported. When searching, use "
+"a few words that describe what you're seeing. For example, \"Lock screen "
+"transparent\" or \"Lock screen shows activities\"."
+msgstr ""
+"First, you'll need to make sure that the bug you're trying to report hasn't "
+"been reported before. Search through the bugs reported. When searching, use "
+"a few words that describe what you're seeing. For example, \"Lock screen "
+"transparent\" or \"Lock screen shows activities\"."
+
+#: ../docs.ubports.com/contribute/bugreporting.rst:18
+msgid ""
+"If you find that a bug report already exists, select the \"Add your Reaction"
+"\" button (it looks like a smiley face) and select the +1 (thumbs up) "
+"reaction. This shows that you are also experiencing the bug."
+msgstr ""
+"If you find that a bug report already exists, select the \"Add your Reaction"
+"\" button (it looks like a smiley face) and select the +1 (thumbs up) "
+"reaction. This shows that you are also experiencing the bug."
+
+#: ../docs.ubports.com/contribute/bugreporting.rst:20
+msgid ""
+"If the report is missing any of the information specified later in this "
+"document, please add it yourself to help the developers fix the bug. "
+"Reproduce the issue you've found"
+msgstr ""
+"If the report is missing any of the information specified later in this "
+"document, please add it yourself to help the developers fix the bug. "
+"Reproduce the issue you've found"
+
+#: ../docs.ubports.com/contribute/bugreporting.rst:23
+msgid ""
+"Next, find out exactly how to recreate the bug that you've found. Document "
+"the exact steps that you took to find the problem in detail. Then, reboot "
+"your phone and perform those steps again. If the problem still occurs, "
+"continue on to the next step. `If not <https://youtu.be/nn2FB1P_Mn8?"
+"t=10s>`_..."
+msgstr ""
+"Next, find out exactly how to recreate the bug that you've found. Document "
+"the exact steps that you took to find the problem in detail. Then, reboot "
+"your phone and perform those steps again. If the problem still occurs, "
+"continue on to the next step. `If not <https://youtu.be/nn2FB1P_Mn8?"
+"t=10s>`_..."
+
+#: ../docs.ubports.com/contribute/bugreporting.rst:26
+msgid "Getting Logs"
+msgstr "Getting Logs"
+
+#: ../docs.ubports.com/contribute/bugreporting.rst:28
+msgid ""
+"We appreciate as many good logs as we can get when you report a bug. In "
+"general, /var/log/dmesg and the output of /android/system/bin/logcat are "
+"helpful when resolving an issue. I'll show you how to get these logs."
+msgstr ""
+"We appreciate as many good logs as we can get when you report a bug. In "
+"general, /var/log/dmesg and the output of /android/system/bin/logcat are "
+"helpful when resolving an issue. I'll show you how to get these logs."
+
+#: ../docs.ubports.com/contribute/bugreporting.rst:30
+msgid ""
+"To get set ready, follow the steps to :doc:`set up ADB </userguide/"
+"advanceduse/adb>`."
+msgstr ""
+"To get set ready, follow the steps to :doc:`set up ADB </userguide/"
+"advanceduse/adb>`."
+
+#: ../docs.ubports.com/contribute/bugreporting.rst:32
+msgid "Now, you can get the two most important logs."
+msgstr "Now, you can get the two most important logs."
+
+#: ../docs.ubports.com/contribute/bugreporting.rst:35
+msgid "dmesg"
+msgstr "dmesg"
+
+#: ../docs.ubports.com/contribute/bugreporting.rst:37
+msgid ""
+"The **dmesg** (*display message* or *driver message*) command displays debug "
+"messages from the kernel."
+msgstr ""
+"The **dmesg** (*display message* or *driver message*) command displays debug "
+"messages from the kernel."
+
+#: ../docs.ubports.com/contribute/bugreporting.rst:39
+#: ../docs.ubports.com/contribute/bugreporting.rst:52
+msgid ""
+"Using the steps you documented earlier, reproduce the issue you're reporting"
+msgstr ""
+"Using the steps you documented earlier, reproduce the issue you're reporting"
+
+#: ../docs.ubports.com/contribute/bugreporting.rst:40
+#: ../docs.ubports.com/contribute/bugreporting.rst:50
+msgid "cd to a folder where you're able to write the log"
+msgstr "cd to a folder where you're able to write the log"
+
+#: ../docs.ubports.com/contribute/bugreporting.rst:41
+msgid "Run the command: `adb shell \"dmesg\" > \"UTdmesg.txt\"`"
+msgstr "Run the command: `adb shell \"dmesg\" > \"UTdmesg.txt\"`"
+
+#: ../docs.ubports.com/contribute/bugreporting.rst:43
+msgid ""
+"This log should now be located at UTdmesg.txt under your working directory, "
+"ready for uploading later."
+msgstr ""
+"This log should now be located at UTdmesg.txt under your working directory, "
+"ready for uploading later."
+
+#: ../docs.ubports.com/contribute/bugreporting.rst:46
+msgid "logcat"
+msgstr "logcat"
+
+#: ../docs.ubports.com/contribute/bugreporting.rst:48
+msgid ""
+"The **logcat** (*log concatenator*) command displays debug information from "
+"various parts of the underlying android system."
+msgstr ""
+"The **logcat** (*log concatenator*) command displays debug information from "
+"various parts of the underlying android system."
+
+#: ../docs.ubports.com/contribute/bugreporting.rst:51
+msgid ""
+"Run the command: `adb shell \"/android/system/bin/logcat -d\" > \"UTlogcat."
+"txt\"`"
+msgstr ""
+"Run the command: `adb shell \"/android/system/bin/logcat -d\" > \"UTlogcat."
+"txt\"`"
+
+#: ../docs.ubports.com/contribute/bugreporting.rst:54
+msgid ""
+"This log will be located at UTlogcat.txt in your current working directory, "
+"so you'll be able to upload it later."
+msgstr ""
+"This log will be located at UTlogcat.txt in your current working directory, "
+"so you'll be able to upload it later."
+
+#: ../docs.ubports.com/contribute/bugreporting.rst:57
+msgid "Making the bug report"
+msgstr "Making the bug report"
+
+#: ../docs.ubports.com/contribute/bugreporting.rst:59
+msgid "Now it's time for what you've been waiting for, the bug report itself!"
+msgstr "Now it's time for what you've been waiting for, the bug report itself!"
+
+#: ../docs.ubports.com/contribute/bugreporting.rst:61
+msgid ""
+"First, pull up the `bug tracker <https://github.com/ubports/ubuntu-touch>`_ "
+"and click \"New Issue\". Log in to GitHub if you haven't yet."
+msgstr ""
+"First, pull up the `bug tracker <https://github.com/ubports/ubuntu-touch>`_ "
+"and click \"New Issue\". Log in to GitHub if you haven't yet."
+
+#: ../docs.ubports.com/contribute/bugreporting.rst:63
+msgid ""
+"Next, you'll need to name your bug. Pick a name that says what's happening, "
+"but don't be too wordy. Four to eight words should be enough."
+msgstr ""
+"Next, you'll need to name your bug. Pick a name that says what's happening, "
+"but don't be too wordy. Four to eight words should be enough."
+
+#: ../docs.ubports.com/contribute/bugreporting.rst:65
+msgid "Now, write your bug report. A good bug report includes the following:"
+msgstr "Now, write your bug report. A good bug report includes the following:"
+
+#: ../docs.ubports.com/contribute/bugreporting.rst:67
+msgid "What happened: A synopsis of the erroneous behavior"
+msgstr "What happened: A synopsis of the erroneous behavior"
+
+#: ../docs.ubports.com/contribute/bugreporting.rst:68
+msgid ""
+"What I expected to happen: A synopsis of what should have happened, if there "
+"wasn't an error"
+msgstr ""
+"What I expected to happen: A synopsis of what should have happened, if there "
+"wasn't an error"
+
+#: ../docs.ubports.com/contribute/bugreporting.rst:69
+msgid "Steps to reproduce: You wrote these down earlier, right?"
+msgstr "Steps to reproduce: You wrote these down earlier, right?"
+
+#: ../docs.ubports.com/contribute/bugreporting.rst:70
+msgid ""
+"Logs: Attach your logs by clicking and dragging them into your GitHub issue."
+msgstr ""
+"Logs: Attach your logs by clicking and dragging them into your GitHub issue."
+
+#: ../docs.ubports.com/contribute/bugreporting.rst:71
+msgid ""
+"Software Version: Go to (Settings - About) and list what appears on the \"OS"
+"\" line of this screen. Also include the release channel that you used when "
+"you installed Ubuntu on this phone."
+msgstr ""
+"Software Version: Go to (Settings - About) and list what appears on the \"OS"
+"\" line of this screen. Also include the release channel that you used when "
+"you installed Ubuntu on this phone."
+
+#: ../docs.ubports.com/contribute/bugreporting.rst:73
+msgid ""
+"Once you're finished with that, post the bug. You can't add labels yourself, "
+"so please don't forget to state the device you're experiencing the issue on "
+"in the description so a moderator can easily add the correct tags later."
+msgstr ""
+"Once you're finished with that, post the bug. You can't add labels yourself, "
+"so please don't forget to state the device you're experiencing the issue on "
+"in the description so a moderator can easily add the correct tags later."
+
+#: ../docs.ubports.com/contribute/bugreporting.rst:75
+msgid ""
+"A developer or QA-team member will confirm and triage your bug, then work "
+"can begin on it. If you are missing any information, you will be asked for "
+"it, so make sure to check in often!"
+msgstr ""
+"A developer or QA-team member will confirm and triage your bug, then work "
+"can begin on it. If you are missing any information, you will be asked for "
+"it, so make sure to check in often!"
+
+#: ../docs.ubports.com/contribute/documentation.rst:2
+msgid "Documentation"
+msgstr "Documentation"
+
+#: ../docs.ubports.com/contribute/documentation.rst:5
+msgid ""
+"Documentation on this site is written in ReStructuredText, or RST for short. "
+"Please check the `RST Primer <http://www.sphinx-doc.org/en/stable/rest."
+"html>`_ if you are not familiar with RST."
+msgstr ""
+"Documentation on this site is written in ReStructuredText, or RST for short. "
+"Please check the `RST Primer <http://www.sphinx-doc.org/en/stable/rest."
+"html>`_ if you are not familiar with RST."
+
+#: ../docs.ubports.com/contribute/documentation.rst:7
+msgid ""
+"This page will guide you through writing great documentation for the UBports "
+"project that can be featured on this site."
+msgstr ""
+"This page will guide you through writing great documentation for the UBports "
+"project that can be featured on this site."
+
+#: ../docs.ubports.com/contribute/documentation.rst:10
+msgid "Documentation guidelines"
+msgstr "Documentation guidelines"
+
+#: ../docs.ubports.com/contribute/documentation.rst:12
+msgid ""
+"These rules govern *how* you should write your documentation to avoid "
+"problems with style, format, or linking. If you don't follow these "
+"guidelines, we will not accept your document."
+msgstr ""
+"These rules govern *how* you should write your documentation to avoid "
+"problems with style, format, or linking. If you don't follow these "
+"guidelines, we will not accept your document."
+
+#: ../docs.ubports.com/contribute/documentation.rst:16
+msgid "Title"
+msgstr "Title"
+
+#: ../docs.ubports.com/contribute/documentation.rst:18
+msgid ""
+"All pages must have a document title. This title is shown on the table of "
+"contents (to the left) and at the top of the page."
+msgstr ""
+"All pages must have a document title. This title is shown on the table of "
+"contents (to the left) and at the top of the page."
+
+#: ../docs.ubports.com/contribute/documentation.rst:20
+msgid ""
+"The title, underlined with the Equals sign, is shown in the table of "
+"contents to the left of the page."
+msgstr ""
+"The title, underlined with the Equals sign, is shown in the table of "
+"contents to the left of the page."
+
+#: ../docs.ubports.com/contribute/documentation.rst:22
+msgid "Titles should be sentence cased rather than Title Cased. For example::"
+msgstr "Titles should be sentence cased rather than Title Cased. For example::"
+
+#: ../docs.ubports.com/contribute/documentation.rst:31
+msgid ""
+"There isn't a single definition of title casing that everyone follows, but "
+"sentence casing is easy. This helps keep capitalization in the table of "
+"contents consistent."
+msgstr ""
+"There isn't a single definition of title casing that everyone follows, but "
+"sentence casing is easy. This helps keep capitalization in the table of "
+"contents consistent."
+
+#: ../docs.ubports.com/contribute/documentation.rst:34
+msgid "Table of contents"
+msgstr "Table of contents"
+
+#: ../docs.ubports.com/contribute/documentation.rst:36
+msgid ""
+"People can't navigate to your new page if they can't find it. Neither can "
+"Sphinx. That's why you need to add new pages to Sphinx's table of contents."
+msgstr ""
+"People can't navigate to your new page if they can't find it. Neither can "
+"Sphinx. That's why you need to add new pages to Sphinx's table of contents."
+
+#: ../docs.ubports.com/contribute/documentation.rst:38
+msgid ""
+"You can do this by adding the page to the ``index.rst`` file in the same "
+"directory that you created it. For example, if you create a file called "
+"\"newpage.rst\", you would add the line marked with a chevron (>) in the "
+"nearest index::"
+msgstr ""
+"You can do this by adding the page to the ``index.rst`` file in the same "
+"directory that you created it. For example, if you create a file called "
+"\"newpage.rst\", you would add the line marked with a chevron (>) in the "
+"nearest index::"
+
+#: ../docs.ubports.com/contribute/documentation.rst:48
+msgid ""
+"The order matters. If you would like your page to appear in a certain place "
+"in the table of contents, place it there. In the previous example, newpage "
+"would be added to the end of this table of contents."
+msgstr ""
+"The order matters. If you would like your page to appear in a certain place "
+"in the table of contents, place it there. In the previous example, newpage "
+"would be added to the end of this table of contents."
+
+#: ../docs.ubports.com/contribute/documentation.rst:51
+msgid "Warnings"
+msgstr "Warnings"
+
+#: ../docs.ubports.com/contribute/documentation.rst:53
+msgid ""
+"Your edits must not introduce any warnings into the documentation build. If "
+"any warnings occur, the build will fail and your pull request will be marked "
+"with a red 'X'. Please ensure that your RST is valid and correct before you "
+"create a pull request. This is done automatically (via sphinx-build crashing "
+"with your error) if you follow our build instructions below."
+msgstr ""
+"Your edits must not introduce any warnings into the documentation build. If "
+"any warnings occur, the build will fail and your pull request will be marked "
+"with a red 'X'. Please ensure that your RST is valid and correct before you "
+"create a pull request. This is done automatically (via sphinx-build crashing "
+"with your error) if you follow our build instructions below."
+
+#: ../docs.ubports.com/contribute/documentation.rst:56
+msgid "Contribution workflow"
+msgstr "Contribution workflow"
+
+#: ../docs.ubports.com/contribute/documentation.rst:59
+msgid ""
+"You will need a GitHub account to complete these steps. If you do not have "
+"one, click `here <https://github.com/join>`_ to begin the process of making "
+"an account."
+msgstr ""
+"You will need a GitHub account to complete these steps. If you do not have "
+"one, click `here <https://github.com/join>`_ to begin the process of making "
+"an account."
+
+#: ../docs.ubports.com/contribute/documentation.rst:62
+msgid "Directly on GitHub"
+msgstr "Directly on GitHub"
+
+#: ../docs.ubports.com/contribute/documentation.rst:64
+msgid ""
+"Read the Docs and GitHub make it fairly simple to contribute to this "
+"documentation. This section will show you the basic workflow to get started "
+"by editing an existing page on GitHub"
+msgstr ""
+"Read the Docs and GitHub make it fairly simple to contribute to this "
+"documentation. This section will show you the basic workflow to get started "
+"by editing an existing page on GitHub"
+
+#: ../docs.ubports.com/contribute/documentation.rst:67
+msgid "Find the page you would like to edit"
+msgstr "Find the page you would like to edit"
+
+#: ../docs.ubports.com/contribute/documentation.rst:68
+msgid "Click the \"Edit on GitHub\" link to the right of the title"
+msgstr "Click the \"Edit on GitHub\" link to the right of the title"
+
+#: ../docs.ubports.com/contribute/documentation.rst:69
+msgid ""
+"Make your changes to the document. Remember to write in ReStructuredText!"
+msgstr ""
+"Make your changes to the document. Remember to write in ReStructuredText!"
+
+#: ../docs.ubports.com/contribute/documentation.rst:70
+msgid "Propose your changes as a Pull Request."
+msgstr "Propose your changes as a Pull Request."
+
+#: ../docs.ubports.com/contribute/documentation.rst:72
+msgid ""
+"If there are any errors with your proposed changes, the documentation team "
+"will ask you make some changes and resubmit. This is as simple as editing "
+"the file on GitHub from your fork of the repository."
+msgstr ""
+"If there are any errors with your proposed changes, the documentation team "
+"will ask you make some changes and resubmit. This is as simple as editing "
+"the file on GitHub from your fork of the repository."
+
+#: ../docs.ubports.com/contribute/documentation.rst:75
+msgid "Manually forking the repository"
+msgstr "Manually forking the repository"
+
+#: ../docs.ubports.com/contribute/documentation.rst:77
+msgid ""
+"You can make more advanced edits to our documentation by forking `ubports/"
+"docs.ubports.com <https://github.com/ubports/docs.ubports.com>`_ on GitHub. "
+"If you're not sure how to do this, check out the excellent GitHub guide on "
+"`forking projects <https://guides.github.com/activities/forking/>`_."
+msgstr ""
+"You can make more advanced edits to our documentation by forking `ubports/"
+"docs.ubports.com <https://github.com/ubports/docs.ubports.com>`_ on GitHub. "
+"If you're not sure how to do this, check out the excellent GitHub guide on "
+"`forking projects <https://guides.github.com/activities/forking/>`_."
+
+#: ../docs.ubports.com/contribute/documentation.rst:80
+msgid "Building this documentation locally"
+msgstr "Building this documentation locally"
+
+#: ../docs.ubports.com/contribute/documentation.rst:82
+msgid ""
+"If you'd like to build this documentation *before* sending a PR (which you "
+"should), follow these instructions on your *local copy* of your fork of the "
+"repository."
+msgstr ""
+"If you'd like to build this documentation *before* sending a PR (which you "
+"should), follow these instructions on your *local copy* of your fork of the "
+"repository."
+
+#: ../docs.ubports.com/contribute/documentation.rst:84
+msgid ""
+"The documentation can be built by running ``./build.sh`` in the root of this "
+"repository. The script will also create a virtual build environment in ``~/"
+"ubportsdocsenv`` if none is present."
+msgstr ""
+"The documentation can be built by running ``./build.sh`` in the root of this "
+"repository. The script will also create a virtual build environment in ``~/"
+"ubportsdocsenv`` if none is present."
+
+#: ../docs.ubports.com/contribute/documentation.rst:86
+msgid ""
+"If all went well, you can enter the ``_build`` directory and open ``index."
+"html`` to view the UBports documentation."
+msgstr ""
+"If all went well, you can enter the ``_build`` directory and open ``index."
+"html`` to view the UBports documentation."
+
+#: ../docs.ubports.com/contribute/documentation.rst:89
+msgid "Current TODOs"
+msgstr "Current TODOs"
+
+#: ../docs.ubports.com/contribute/documentation.rst:91
+msgid ""
+"This page lists the TODOs that have been included in this documentation. If "
+"you know how to fix one, please send us a PR to make it better!"
+msgstr ""
+"This page lists the TODOs that have been included in this documentation. If "
+"you know how to fix one, please send us a PR to make it better!"
+
+#: ../docs.ubports.com/contribute/documentation.rst:98
+msgid "To create a todo, add this markup to your page::"
+msgstr "To create a todo, add this markup to your page::"
+
+#: ../docs.ubports.com/contribute/documentation-todo.rst:3
+msgid "Documentation TODOs"
+msgstr "Documentation TODOs"
+
+#: ../docs.ubports.com/contribute/index.rst:2
+msgid "Contributing to UBports"
+msgstr "Contributing to UBports"
+
+#: ../docs.ubports.com/contribute/index.rst:4
+msgid ""
+"Welcome! You're probably here because you want to contribute to UBports. The "
+"pages you'll find below here will help you do this in a way that's helpful "
+"to both the project and yourself."
+msgstr ""
+"Welcome! You're probably here because you want to contribute to UBports. The "
+"pages you'll find below here will help you do this in a way that's helpful "
+"to both the project and yourself."
+
+#: ../docs.ubports.com/contribute/index.rst:6
+msgid ""
+"If you're just getting started, we always need help with :doc:`thorough bug "
+"reporting <bugreporting>`. If you are multilingual, :doc:`translations "
+"<translations>` are also a great place to start."
+msgstr ""
+"If you're just getting started, we always need help with :doc:`thorough bug "
+"reporting <bugreporting>`. If you are multilingual, :doc:`translations "
+"<translations>` are also a great place to start."
+
+#: ../docs.ubports.com/contribute/index.rst:8
+msgid ""
+"If those aren't enough for you, see `our contribute page <https://ubports."
+"com/page/vo-get-involved>`_ for an introduction of our focus groups."
+msgstr ""
+"If those aren't enough for you, see `our contribute page <https://ubports."
+"com/page/vo-get-involved>`_ for an introduction of our focus groups."
+
+#: ../docs.ubports.com/contribute/monetary.rst:2
+msgid "Monetary support"
+msgstr "Monetary support"
+
+#: ../docs.ubports.com/contribute/monetary.rst:4
+msgid ""
+"You can help us keep the lights on at UBports by becoming a `patreon "
+"<https://www.patreon.com/ubports>`_!"
+msgstr ""
+"You can help us keep the lights on at UBports by becoming a `patreon "
+"<https://www.patreon.com/ubports>`_!"
+
+#: ../docs.ubports.com/contribute/monetary.rst:6
+msgid ""
+"Your contribution finances our server infrastructure and debug services, and "
+"helps covering additional costs."
+msgstr ""
+"Your contribution finances our server infrastructure and debug services, and "
+"helps covering additional costs."
+
+#: ../docs.ubports.com/contribute/quality-assurance.rst:2
+msgid "Quality Assurance"
+msgstr "Quality Assurance"
+
+#: ../docs.ubports.com/contribute/quality-assurance.rst:4
+msgid ""
+"This page explains how to help the UBports QA team, both as an official "
+"member or a new contributor. Please also read the :doc:`issue tracking </"
+"about/process/issue-tracking>` and :doc:`bugreporting <bugreporting>` guides "
+"to better understand the workflow."
+msgstr ""
+"This page explains how to help the UBports QA team, both as an official "
+"member or a new contributor. Please also read the :doc:`issue tracking </"
+"about/process/issue-tracking>` and :doc:`bugreporting <bugreporting>` guides "
+"to better understand the workflow."
+
+#: ../docs.ubports.com/contribute/quality-assurance.rst:7
+msgid "Confirming bug reports"
+msgstr "Confirming bug reports"
+
+#: ../docs.ubports.com/contribute/quality-assurance.rst:9
+msgid ""
+"Unconfirmed bugreports are labeld **needs confirmation** to enable `global "
+"filtering <https://github.com/ubports/ubuntu-touch/issues?q=is%3Aissue+is"
+"%3Aopen+label%3A%22needs+confirmation%22>`__. Browse through the list, read "
+"the bugreports and try to reproduce the issues that are described. If "
+"neccessary, add :doc:`missing information or logs, or improve the quality of "
+"the report by other means <bugreporting>`. Leave a comment stating your "
+"device, channel, build number and whether or not you were able to reproduce "
+"the issue."
+msgstr ""
+"Unconfirmed bugreports are labeld **needs confirmation** to enable `global "
+"filtering <https://github.com/ubports/ubuntu-touch/issues?q=is%3Aissue+is"
+"%3Aopen+label%3A%22needs+confirmation%22>`__. Browse through the list, read "
+"the bugreports and try to reproduce the issues that are described. If "
+"neccessary, add :doc:`missing information or logs, or improve the quality of "
+"the report by other means <bugreporting>`. Leave a comment stating your "
+"device, channel, build number and whether or not you were able to reproduce "
+"the issue."
+
+#: ../docs.ubports.com/contribute/quality-assurance.rst:11
+msgid ""
+"If you have write-access to the repository, you can replace the **needs "
+"confirmation** label with **bug** (to mark it confirmed) or **invalid** (if "
+"the issue is definitely not reproducable). In that case it should be closed."
+msgstr ""
+"If you have write-access to the repository, you can replace the **needs "
+"confirmation** label with **bug** (to mark it confirmed) or **invalid** (if "
+"the issue is definitely not reproducable). In that case it should be closed."
+
+#: ../docs.ubports.com/contribute/quality-assurance.rst:13
+msgid ""
+"If you find two issues describing the same problem, leave a comment and try "
+"to find their differences. If they are in fact identical, close the newer "
+"one and label it **duplicate**."
+msgstr ""
+"If you find two issues describing the same problem, leave a comment and try "
+"to find their differences. If they are in fact identical, close the newer "
+"one and label it **duplicate**."
+
+#: ../docs.ubports.com/contribute/quality-assurance.rst:16
+msgid "Testing patches"
+msgstr "Testing patches"
+
+#: ../docs.ubports.com/contribute/quality-assurance.rst:18
+msgid ""
+"Once a developer finished working on an issue, it's moved to the quality "
+"assurance column of the `GitHub project <https://github.com/ubports/ubuntu-"
+"touch/projects/3>`__. Check if the issue is still present in the latest "
+"update on the devel channel and try to find any problems it is causing. "
+"Check if the developer mentioned specific things to look out for when "
+"testing and leave a comment detailing your experience. If you have write-"
+"access to the repository, you can move the issue back to **In Development** "
+"or forward to **Release Candidate** as specified by the :doc:`issue tracking "
+"guidelines </about/process/issue-tracking>`."
+msgstr ""
+"Once a developer finished working on an issue, it's moved to the quality "
+"assurance column of the `GitHub project <https://github.com/ubports/ubuntu-"
+"touch/projects/3>`__. Check if the issue is still present in the latest "
+"update on the devel channel and try to find any problems it is causing. "
+"Check if the developer mentioned specific things to look out for when "
+"testing and leave a comment detailing your experience. If you have write-"
+"access to the repository, you can move the issue back to **In Development** "
+"or forward to **Release Candidate** as specified by the :doc:`issue tracking "
+"guidelines </about/process/issue-tracking>`."
+
+#: ../docs.ubports.com/contribute/quality-assurance.rst:21
+msgid "Initial triaging of issues"
+msgstr "Initial triaging of issues"
+
+#: ../docs.ubports.com/contribute/quality-assurance.rst:23
+msgid ""
+"Initial triaging of new issues is done by QA-team members with write-access "
+"to the repository. If a new issue is filed, read the report and add the "
+"correct labels as specified by the :doc:`issue tracking guidelines </about/"
+"process/issue-tracking>`. You can also immediately start confirming the "
+"bugreport."
+msgstr ""
+"Initial triaging of new issues is done by QA-team members with write-access "
+"to the repository. If a new issue is filed, read the report and add the "
+"correct labels as specified by the :doc:`issue tracking guidelines </about/"
+"process/issue-tracking>`. You can also immediately start confirming the "
+"bugreport."
+
+#: ../docs.ubports.com/contribute/quality-assurance.rst:25
+msgid ""
+"If the new issue has already been reported elsewhere, label it **duplicate** "
+"and close it."
+msgstr ""
+"If the new issue has already been reported elsewhere, label it **duplicate** "
+"and close it."
+
+#: ../docs.ubports.com/contribute/translations.rst:2
+msgid "Translations"
+msgstr "Translations"
+
+#: ../docs.ubports.com/contribute/translations.rst:4
+msgid ""
+"Although English is the official base language for all UBports projects we "
+"believe you have the right to use it in any language you want."
+msgstr ""
+"Although English is the official base language for all UBports projects we "
+"believe you have the right to use it in any language you want."
+
+#: ../docs.ubports.com/contribute/translations.rst:6
+msgid "We are working hard to meet that goal, and you can help as well."
+msgstr "We are working hard to meet that goal, and you can help as well."
+
+#: ../docs.ubports.com/contribute/translations.rst:8
+msgid "There are two levels for this:"
+msgstr "There are two levels for this:"
+
+#: ../docs.ubports.com/contribute/translations.rst:10
+msgid "A casual approach, as a translator volunteer."
+msgstr "A casual approach, as a translator volunteer."
+
+#: ../docs.ubports.com/contribute/translations.rst:11
+msgid ""
+"A fully committed approach as a UBports Member, filling in `this application "
+"<https://ubports.com/survey/start/ubports-membership-application-6>`_."
+msgstr ""
+"A fully committed approach as a UBports Member, filling in `this application "
+"<https://ubports.com/survey/start/ubports-membership-application-6>`_."
+
+#: ../docs.ubports.com/contribute/translations.rst:14
+msgid "Tools for Translation"
+msgstr "Tools for Translation"
+
+#: ../docs.ubports.com/contribute/translations.rst:16
+msgid ""
+"For everyone: A web based translation tool called `Weblate <https://"
+"translate.ubports.com/>`_. This is the recommended way."
+msgstr ""
+"For everyone: A web based translation tool called `Weblate <https://"
+"translate.ubports.com/>`_. This is the recommended way."
+
+#: ../docs.ubports.com/contribute/translations.rst:18
+msgid ""
+"For advanced users: Working directly on .po files with the editor of your "
+"choice, and a GitHub account. The .po files for each project are in their "
+"repository on `our GitHub organization <https://github.com/ubports>`_."
+msgstr ""
+"For advanced users: Working directly on .po files with the editor of your "
+"choice, and a GitHub account. The .po files for each project are in their "
+"repository on `our GitHub organization <https://github.com/ubports>`_."
+
+#: ../docs.ubports.com/contribute/translations.rst:20
+msgid ""
+"A `Translation Forum <https://forums.ubports.com/category/39/translations>`_ "
+"to discuss on translating Ubuntu Touch and its core apps."
+msgstr ""
+"A `Translation Forum <https://forums.ubports.com/category/39/translations>`_ "
+"to discuss on translating Ubuntu Touch and its core apps."
+
+#: ../docs.ubports.com/contribute/translations.rst:24
+msgid "How-To"
+msgstr "How-To"
+
+#: ../docs.ubports.com/contribute/translations.rst:27
+msgid "UBports Weblate"
+msgstr "UBports Weblate"
+
+#: ../docs.ubports.com/contribute/translations.rst:29
+msgid ""
+"You can go to `UBports Weblate <https://translate.ubports.com/>`_, click on "
+"\"Dashboard\" button, go to a project, and start making anonymous "
+"suggestions without being registered. If you want to save your translations, "
+"you must be logged in."
+msgstr ""
+"You can go to `UBports Weblate <https://translate.ubports.com/>`_, click on "
+"\"Dashboard\" button, go to a project, and start making anonymous "
+"suggestions without being registered. If you want to save your translations, "
+"you must be logged in."
+
+#: ../docs.ubports.com/contribute/translations.rst:31
+msgid ""
+"For that, go to UBports Weblate and click on the \"Register\" button. Once "
+"in the \"Registration\" page, you'll find two options:"
+msgstr ""
+"For that, go to UBports Weblate and click on the \"Register\" button. Once "
+"in the \"Registration\" page, you'll find two options:"
+
+#: ../docs.ubports.com/contribute/translations.rst:33
+msgid ""
+"Register using a valid email address, a username, and your full name. You'll "
+"need to resolve an easy control question too."
+msgstr ""
+"Register using a valid email address, a username, and your full name. You'll "
+"need to resolve an easy control question too."
+
+#: ../docs.ubports.com/contribute/translations.rst:34
+msgid ""
+"Register using a third party registration. Currently the system supports "
+"accounts from openSUSE, GitHub, Fedora, and Ubuntu."
+msgstr ""
+"Register using a third party registration. Currently the system supports "
+"accounts from openSUSE, GitHub, Fedora, and Ubuntu."
+
+#: ../docs.ubports.com/contribute/translations.rst:36
+msgid ""
+"Once you're logged in, the site is self-explanatory and you'll find there "
+"all the options and customization you can do."
+msgstr ""
+"Once you're logged in, the site is self-explanatory and you'll find there "
+"all the options and customization you can do."
+
+#: ../docs.ubports.com/contribute/translations.rst:38
+msgid ""
+"Now, get on with it. The first step is to search if your language already "
+"exists in the project of your choice."
+msgstr ""
+"Now, get on with it. The first step is to search if your language already "
+"exists in the project of your choice."
+
+#: ../docs.ubports.com/contribute/translations.rst:40
+msgid ""
+"If your language is not available for a specific project, you can add it "
+"yourself."
+msgstr ""
+"If your language is not available for a specific project, you can add it "
+"yourself."
+
+#: ../docs.ubports.com/contribute/translations.rst:42
+msgid ""
+"You decide how much time you can put into translation. From minutes to "
+"hours, everything counts."
+msgstr ""
+"You decide how much time you can put into translation. From minutes to "
+"hours, everything counts."
+
+#: ../docs.ubports.com/contribute/translations.rst:45
+msgid ".po file editor"
+msgstr ".po file editor"
+
+#: ../docs.ubports.com/contribute/translations.rst:47
+msgid ""
+"As was said up above, you need a file editor of your choice and a GitHub "
+"account to translate .po files directly."
+msgstr ""
+"As was said up above, you need a file editor of your choice and a GitHub "
+"account to translate .po files directly."
+
+#: ../docs.ubports.com/contribute/translations.rst:49
+msgid ""
+"There are online gettext .po editors and those you can install in your "
+"computer."
+msgstr ""
+"There are online gettext .po editors and those you can install in your "
+"computer."
+
+#: ../docs.ubports.com/contribute/translations.rst:51
+msgid ""
+"You can choose whatever editor you want, but we prefer to work with free "
+"software only. There are too many plain text editors and tools to help you "
+"translate .po files to put down a list here."
+msgstr ""
+"You can choose whatever editor you want, but we prefer to work with free "
+"software only. There are too many plain text editors and tools to help you "
+"translate .po files to put down a list here."
+
+#: ../docs.ubports.com/contribute/translations.rst:53
+msgid ""
+"If you want to work with .po files directly you know what you're doing for "
+"sure."
+msgstr ""
+"If you want to work with .po files directly you know what you're doing for "
+"sure."
+
+#: ../docs.ubports.com/contribute/translations.rst:56
+msgid "Translation Team Communication"
+msgstr "Translation Team Communication"
+
+#: ../docs.ubports.com/contribute/translations.rst:58
+msgid ""
+"The straightforward and recommended way is to use `the forum category "
+"<https://forums.ubports.com/category/39/translations>`_ that UBports "
+"provides for this task."
+msgstr ""
+"The straightforward and recommended way is to use `the forum category "
+"<https://forums.ubports.com/category/39/translations>`_ that UBports "
+"provides for this task."
+
+#: ../docs.ubports.com/contribute/translations.rst:60
+msgid "To use it you need to register, or login if you're registered already."
+msgstr "To use it you need to register, or login if you're registered already."
+
+#: ../docs.ubports.com/contribute/translations.rst:62
+msgid ""
+"The only requirement is to start your post putting down your language in "
+"brackets in the \"Enter your topic title here\" field. For example, "
+"``[Spanish] How to translate whatever?``"
+msgstr ""
+"The only requirement is to start your post putting down your language in "
+"brackets in the \"Enter your topic title here\" field. For example, "
+"``[Spanish] How to translate whatever?``"
+
+#: ../docs.ubports.com/contribute/translations.rst:64
+msgid ""
+"Just for your information, some projects are using Telegram groups too, and "
+"some teams are still using the Ubuntu Launchpad framework."
+msgstr ""
+"Just for your information, some projects are using Telegram groups too, and "
+"some teams are still using the Ubuntu Launchpad framework."
+
+#: ../docs.ubports.com/contribute/translations.rst:66
+msgid ""
+"In your interactions with your team you'll find the best way to coordinate "
+"your translations."
+msgstr ""
+"In your interactions with your team you'll find the best way to coordinate "
+"your translations."
+
+#: ../docs.ubports.com/contribute/translations.rst:69
+msgid "License"
+msgstr "License"
+
+#: ../docs.ubports.com/contribute/translations.rst:71
+msgid ""
+"All the translation projects, and all your contributions to this project, "
+"are under a `Creative Commons Attribution-ShareAlike 4.0 International (CC "
+"BY-SA 4.0) <https://creativecommons.org/licenses/by-sa/4.0/>`_ license that "
+"you explicitly accept by contributing to the project."
+msgstr ""
+"All the translation projects, and all your contributions to this project, "
+"are under a `Creative Commons Attribution-ShareAlike 4.0 International (CC "
+"BY-SA 4.0) <https://creativecommons.org/licenses/by-sa/4.0/>`_ license that "
+"you explicitly accept by contributing to the project."
+
+#: ../docs.ubports.com/contribute/translations.rst:73
+msgid "Go to that link to learn what this exactly means."
+msgstr "Go to that link to learn what this exactly means."
+
+#: ../docs.ubports.com/index.rst:2
+msgid "Welcome to the UBports documentation!"
+msgstr "Welcome to the UBports documentation!"
+
+#: ../docs.ubports.com/index.rst:4
+msgid "Welcome to the official documentation of the UBports project!"
+msgstr "Welcome to the official documentation of the UBports project!"
+
+#: ../docs.ubports.com/index.rst:6
+msgid ""
+"UBports develops the mobile phone operating system Ubuntu Touch. Ubuntu "
+"Touch is a mobile operating system focused on ease of use, privacy, and "
+"convergence."
+msgstr ""
+"UBports develops the mobile phone operating system Ubuntu Touch. Ubuntu "
+"Touch is a mobile operating system focused on ease of use, privacy, and "
+"convergence."
+
+#: ../docs.ubports.com/index.rst:8
+msgid ""
+"On this website you find instructions how to install Ubuntu Touch on your "
+"mobile phone, user guides and detailed documentation on all system "
+"components. If this is your first time here, please consider reading our :"
+"doc:`introduction <about/introduction>`."
+msgstr ""
+"On this website you find instructions how to install Ubuntu Touch on your "
+"mobile phone, user guides and detailed documentation on all system "
+"components. If this is your first time here, please consider reading our :"
+"doc:`introduction <about/introduction>`."
+
+#: ../docs.ubports.com/index.rst:10
+msgid ""
+"If you want to help improving this documentation, :doc:`the Documentation "
+"contribute page <contribute/documentation>` will get you started."
+msgstr ""
+"If you want to help improving this documentation, :doc:`the Documentation "
+"contribute page <contribute/documentation>` will get you started."
+
+#: ../docs.ubports.com/index.rst:13
+msgid "About"
+msgstr "About"
+
+#: ../docs.ubports.com/index.rst:22
+msgid "User Guide"
+msgstr "User Guide"
+
+#: ../docs.ubports.com/index.rst:32
+msgid "Contribute"
+msgstr "Contribute"
+
+#: ../docs.ubports.com/index.rst:40 ../docs.ubports.com/appdev/index.rst:2
+msgid "App development"
+msgstr "App development"
+
+#: ../docs.ubports.com/index.rst:48
+msgid "Platform"
+msgstr "Platform"
+
+#: ../docs.ubports.com/index.rst:58
+msgid "Porting"
+msgstr "Porting"
+
+#: ../docs.ubports.com/porting/building-ubports-boot.rst:3
+msgid "Building ubports-boot"
+msgstr "Building ubports-boot"
+
+#: ../docs.ubports.com/porting/building-ubports-boot.rst:5
+msgid ""
+"Ubuntu Touch uses Upstart rather than Systemd for its init daemon. Because "
+"of this, it is not fully Halium-compatible and is not able to use the "
+"vanilla hybris-boot that Halium produces. For this reason, we need to build "
+"ubports-boot."
+msgstr ""
+"Ubuntu Touch uses Upstart rather than Systemd for its init daemon. Because "
+"of this, it is not fully Halium-compatible and is not able to use the "
+"vanilla hybris-boot that Halium produces. For this reason, we need to build "
+"ubports-boot."
+
+#: ../docs.ubports.com/porting/building-ubports-boot.rst:9
+msgid "Add source to Halium tree"
+msgstr "Add source to Halium tree"
+
+#: ../docs.ubports.com/porting/building-ubports-boot.rst:11
+msgid ""
+"The first thing that needs to be done is adding the ubports-boot source to "
+"your Halium tree. You may choose to do this by adding it to your local "
+"manifests (recommended) or simply cloning it in place."
+msgstr ""
+"The first thing that needs to be done is adding the ubports-boot source to "
+"your Halium tree. You may choose to do this by adding it to your local "
+"manifests (recommended) or simply cloning it in place."
+
+#: ../docs.ubports.com/porting/building-ubports-boot.rst:15
+msgid ""
+"Due to a `bug in the ubports-boot build scripts <https://github.com/ubports/"
+"ubports-boot/issues/3>`_, you will need to remove it from your tree before "
+"you're able to build ``hybris-boot`` again."
+msgstr ""
+"Due to a `bug in the ubports-boot build scripts <https://github.com/ubports/"
+"ubports-boot/issues/3>`_, you will need to remove it from your tree before "
+"you're able to build ``hybris-boot`` again."
+
+#: ../docs.ubports.com/porting/building-ubports-boot.rst:19
+msgid "Add to local manifest"
+msgstr "Add to local manifest"
+
+#: ../docs.ubports.com/porting/building-ubports-boot.rst:21
+msgid ""
+"Create a new file in ``.repo/local_manifests`` called ``ubports-boot.xml``. "
+"Add the following to the file:"
+msgstr ""
+"Create a new file in ``.repo/local_manifests`` called ``ubports-boot.xml``. "
+"Add the following to the file:"
+
+#: ../docs.ubports.com/porting/building-ubports-boot.rst:30
+msgid "Now, just do a ``repo sync`` to download the new source."
+msgstr "Now, just do a ``repo sync`` to download the new source."
+
+#: ../docs.ubports.com/porting/building-ubports-boot.rst:34
+msgid "Manual clone"
+msgstr "Manual clone"
+
+#: ../docs.ubports.com/porting/building-ubports-boot.rst:36
+msgid ""
+"You may also choose to clone `the ubports-boot repository <https://github."
+"com/ubports/ubports-boot>`_ into your tree manually. It should be placed "
+"into ``BUILDDIR/halium/ubports-boot``."
+msgstr ""
+"You may also choose to clone `the ubports-boot repository <https://github."
+"com/ubports/ubports-boot>`_ into your tree manually. It should be placed "
+"into ``BUILDDIR/halium/ubports-boot``."
+
+#: ../docs.ubports.com/porting/building-ubports-boot.rst:38
+msgid ""
+"If you share your code and build instructions, please note that you've done "
+"this."
+msgstr ""
+"If you share your code and build instructions, please note that you've done "
+"this."
+
+#: ../docs.ubports.com/porting/building-ubports-boot.rst:41
+msgid "Include in build system"
+msgstr "Include in build system"
+
+#: ../docs.ubports.com/porting/building-ubports-boot.rst:43
+msgid ""
+"The android build system won't know where to find ubports-boot normally. To "
+"fix this, open the file ``BUILDDIR/build/core/main.mk`` in a text editor. "
+"Find the comment ``# Specific projects for Halium`` and change the text "
+"directly under it to match this::"
+msgstr ""
+"The android build system won't know where to find ubports-boot normally. To "
+"fix this, open the file ``BUILDDIR/build/core/main.mk`` in a text editor. "
+"Find the comment ``# Specific projects for Halium`` and change the text "
+"directly under it to match this::"
+
+#: ../docs.ubports.com/porting/building-ubports-boot.rst:50
+msgid "Fix mounts"
+msgstr "Fix mounts"
+
+#: ../docs.ubports.com/porting/building-ubports-boot.rst:54
+msgid ""
+"This is a workaround for `ubports/ubports-boot #1 <https://github.com/"
+"ubports/ubports-boot/issues/1>`_ and `ubports/ubports-boot #2 <https://"
+"github.com/ubports/ubports-boot/issues/2>`_. It should not be considered a "
+"permanent fix. Be prepared to revert this later when these bugs have been "
+"fixed."
+msgstr ""
+"This is a workaround for `ubports/ubports-boot #1 <https://github.com/"
+"ubports/ubports-boot/issues/1>`_ and `ubports/ubports-boot #2 <https://"
+"github.com/ubports/ubports-boot/issues/2>`_. It should not be considered a "
+"permanent fix. Be prepared to revert this later when these bugs have been "
+"fixed."
+
+#: ../docs.ubports.com/porting/building-ubports-boot.rst:56
+msgid ""
+"The initramfs of the ubports-boot image takes a commandline parameter, "
+"``datapart=``, which points it to the block device that is normally mounted "
+"at ``/data`` in Android. This parameter is automatically embedded into the "
+"image at build time by finding ``/data`` in your device's default fstab and "
+"using its source. Unfortunately, this source is generally a node in ``/dev/"
+"block/bootdevice/by-name`` or something else strange, which is only "
+"available in an Android initramfs. To fix this, Halium uses the fixup-"
+"mountpoints script, which you are probably familiar with by now."
+msgstr ""
+"The initramfs of the ubports-boot image takes a commandline parameter, "
+"``datapart=``, which points it to the block device that is normally mounted "
+"at ``/data`` in Android. This parameter is automatically embedded into the "
+"image at build time by finding ``/data`` in your device's default fstab and "
+"using its source. Unfortunately, this source is generally a node in ``/dev/"
+"block/bootdevice/by-name`` or something else strange, which is only "
+"available in an Android initramfs. To fix this, Halium uses the fixup-"
+"mountpoints script, which you are probably familiar with by now."
+
+#: ../docs.ubports.com/porting/building-ubports-boot.rst:58
+msgid ""
+"The ubports-boot initramfs does not use the fixup-mountpoints script, nor "
+"does it put block devices in the proper place for mounting without "
+"modification. For this reason, we are going to have to edit your device's "
+"fstab."
+msgstr ""
+"The ubports-boot initramfs does not use the fixup-mountpoints script, nor "
+"does it put block devices in the proper place for mounting without "
+"modification. For this reason, we are going to have to edit your device's "
+"fstab."
+
+#: ../docs.ubports.com/porting/building-ubports-boot.rst:60
+msgid ""
+"The first step to this process is figuring out where your fstab actually is. "
+"For most, this is inside ``BUILDDIR/device/MANUFACTUER/CODENAME/rootdir/"
+"etc`` and it is named either ``fstab.qcom`` or ``fstab.devicename``. Open "
+"the file for editing."
+msgstr ""
+"The first step to this process is figuring out where your fstab actually is. "
+"For most, this is inside ``BUILDDIR/device/MANUFACTUER/CODENAME/rootdir/"
+"etc`` and it is named either ``fstab.qcom`` or ``fstab.devicename``. Open "
+"the file for editing."
+
+#: ../docs.ubports.com/porting/building-ubports-boot.rst:62
+msgid ""
+"With the file open, change the ``src``, or first attribute, of the ``/data`` "
+"mountpoint to what you put in fixup-mountpoints for ``/data``, but without "
+"the ``/block`` folder. For example, on the Moto G5 Plus, the block device is "
+"``/dev/block/mmcblk0p54``, so I put ``/dev/mmcblk0p54`` in this place. Also "
+"change the type to ext4, if it is not already."
+msgstr ""
+"With the file open, change the ``src``, or first attribute, of the ``/data`` "
+"mountpoint to what you put in fixup-mountpoints for ``/data``, but without "
+"the ``/block`` folder. For example, on the Moto G5 Plus, the block device is "
+"``/dev/block/mmcblk0p54``, so I put ``/dev/mmcblk0p54`` in this place. Also "
+"change the type to ext4, if it is not already."
+
+#: ../docs.ubports.com/porting/building-ubports-boot.rst:64
+msgid ""
+"Now, remove all ``context=`` options from all block devices in the file. "
+"Save and exit."
+msgstr ""
+"Now, remove all ``context=`` options from all block devices in the file. "
+"Save and exit."
+
+#: ../docs.ubports.com/porting/building-ubports-boot.rst:66
+msgid ""
+"For an example of this, see `this commit on universalsuperbox/"
+"android_device_motorola_potter <https://github.com/UniversalSuperBox/"
+"android_device_motorola_potter/"
+"commit/9b574967e3a6f07884760b418befe731ccfcb924>`_. Removing the ``wait`` "
+"flag is not required and was an accident."
+msgstr ""
+"For an example of this, see `this commit on universalsuperbox/"
+"android_device_motorola_potter <https://github.com/UniversalSuperBox/"
+"android_device_motorola_potter/"
+"commit/9b574967e3a6f07884760b418befe731ccfcb924>`_. Removing the ``wait`` "
+"flag is not required and was an accident."
+
+#: ../docs.ubports.com/porting/building-ubports-boot.rst:70
+msgid "Edit init.rc"
+msgstr "Edit init.rc"
+
+#: ../docs.ubports.com/porting/building-ubports-boot.rst:72
+msgid ""
+"Some Android services conflict with ofono in 16.04 and will cause your "
+"device to reboot without warning, about 30-60 seconds after it boots. We "
+"will need to disable these services until the issue is resolved."
+msgstr ""
+"Some Android services conflict with ofono in 16.04 and will cause your "
+"device to reboot without warning, about 30-60 seconds after it boots. We "
+"will need to disable these services until the issue is resolved."
+
+#: ../docs.ubports.com/porting/building-ubports-boot.rst:74
+msgid ""
+"To do this, open up your device's default ``init.rc`` (this is likely init."
+"qcom.rc or init.[codename].rc), comment out any ``import`` statements, and "
+"add ``disabled`` to services like rild, qti, and others that interface with "
+"the radio. Most of them have a ``user radio`` line. For an example, see "
+"`commit 7875b48b on UniversalSuperBox/android_device_motorola_potter "
+"<https://github.com/UniversalSuperBox/android_device_motorola_potter/"
+"commit/7875b48b5b6f240935d7f327d33128e952a3589b>`_"
+msgstr ""
+"To do this, open up your device's default ``init.rc`` (this is likely init."
+"qcom.rc or init.[codename].rc), comment out any ``import`` statements, and "
+"add ``disabled`` to services like rild, qti, and others that interface with "
+"the radio. Most of them have a ``user radio`` line. For an example, see "
+"`commit 7875b48b on UniversalSuperBox/android_device_motorola_potter "
+"<https://github.com/UniversalSuperBox/android_device_motorola_potter/"
+"commit/7875b48b5b6f240935d7f327d33128e952a3589b>`_"
+
+#: ../docs.ubports.com/porting/building-ubports-boot.rst:78
+msgid "Edit kernel config"
+msgstr "Edit kernel config"
+
+#: ../docs.ubports.com/porting/building-ubports-boot.rst:80
+msgid ""
+"Ubuntu Touch requires a slightly different kernel config than Halium, "
+"including enabling Apparmor. Luckily, we have a nice script for this "
+"purpose, ``check-kernel-config``. It's included in the ubports-boot "
+"repository. Simply run it on your config as follows::"
+msgstr ""
+"Ubuntu Touch requires a slightly different kernel config than Halium, "
+"including enabling Apparmor. Luckily, we have a nice script for this "
+"purpose, ``check-kernel-config``. It's included in the ubports-boot "
+"repository. Simply run it on your config as follows::"
+
+#: ../docs.ubports.com/porting/building-ubports-boot.rst:84
+msgid ""
+"You may have to do this twice. It will likely fix things both times. Then, "
+"run the script without the ``-w`` flag to see if there are any more errors. "
+"If there are, fix them manually. Once finished, run the script without the "
+"``-w`` flag one more time to make sure everything is correct."
+msgstr ""
+"You may have to do this twice. It will likely fix things both times. Then, "
+"run the script without the ``-w`` flag to see if there are any more errors. "
+"If there are, fix them manually. Once finished, run the script without the "
+"``-w`` flag one more time to make sure everything is correct."
+
+#: ../docs.ubports.com/porting/building-ubports-boot.rst:88
+msgid "Build the image"
+msgstr "Build the image"
+
+#: ../docs.ubports.com/porting/building-ubports-boot.rst:90
+msgid ""
+"Once ubports-boot is in place, you can build it quite simply. You will also "
+"need to rebuild system.img due to our changes."
+msgstr ""
+"Once ubports-boot is in place, you can build it quite simply. You will also "
+"need to rebuild system.img due to our changes."
+
+#: ../docs.ubports.com/porting/building-ubports-boot.rst:92
+msgid "``cd`` to your Halium BUILDDIR"
+msgstr "``cd`` to your Halium BUILDDIR"
+
+#: ../docs.ubports.com/porting/building-ubports-boot.rst:93
+msgid "``source build/envsetup.sh``"
+msgstr "``source build/envsetup.sh``"
+
+#: ../docs.ubports.com/porting/building-ubports-boot.rst:94
+msgid "Run ``breakfast`` or ``lunch``, whichever you use for your device"
+msgstr "Run ``breakfast`` or ``lunch``, whichever you use for your device"
+
+#: ../docs.ubports.com/porting/building-ubports-boot.rst:95
+msgid "``mka ubports-boot``"
+msgstr "``mka ubports-boot``"
+
+#: ../docs.ubports.com/porting/building-ubports-boot.rst:96
+msgid "``mka systemimage``"
+msgstr "``mka systemimage``"
+
+#: ../docs.ubports.com/porting/building-ubports-boot.rst:101
+msgid "Continue on"
+msgstr "Continue on"
+
+#: ../docs.ubports.com/porting/building-ubports-boot.rst:103
+msgid ""
+"Now that you have ubports-boot built, you can move on to :doc:"
+"`installing-16-04`."
+msgstr ""
+"Now that you have ubports-boot built, you can move on to :doc:"
+"`installing-16-04`."
+
+#: ../docs.ubports.com/porting/installing-16-04.rst:2
+msgid "Installing Ubuntu Touch 16.04 images on Halium"
+msgstr "Installing Ubuntu Touch 16.04 images on Halium"
+
+#: ../docs.ubports.com/porting/installing-16-04.rst:6
+msgid ""
+"These steps  will wipe all of the data on your device. If there is anything "
+"that you would like to keep, ensure it is backed up and copied off of the "
+"device before continuing. It is not a good idea to port Ubuntu Touch using "
+"the device you rely on every day as a testing device. You will lose data. I "
+"speak from personal experience."
+msgstr ""
+"These steps  will wipe all of the data on your device. If there is anything "
+"that you would like to keep, ensure it is backed up and copied off of the "
+"device before continuing. It is not a good idea to port Ubuntu Touch using "
+"the device you rely on every day as a testing device. You will lose data. I "
+"speak from personal experience."
+
+#: ../docs.ubports.com/porting/installing-16-04.rst:8
+msgid ""
+"Now that you've :doc:`built ubports-boot <building-ubports-boot>`, we'll use "
+"a script called ``rootstock-touch-install`` to install an Ubuntu Touch "
+"rootfs on your device."
+msgstr ""
+"Now that you've :doc:`built ubports-boot <building-ubports-boot>`, we'll use "
+"a script called ``rootstock-touch-install`` to install an Ubuntu Touch "
+"rootfs on your device."
+
+#: ../docs.ubports.com/porting/installing-16-04.rst:10
+msgid ""
+"In order to install Ubuntu Touch, you will need a recovery with Busybox, "
+"such as TWRP, installed on your phone. You will also need ensure the /data "
+"partition is formatted with ext4 and does not have any encryption on it."
+msgstr ""
+"In order to install Ubuntu Touch, you will need a recovery with Busybox, "
+"such as TWRP, installed on your phone. You will also need ensure the /data "
+"partition is formatted with ext4 and does not have any encryption on it."
+
+#: ../docs.ubports.com/porting/installing-16-04.rst:13
+msgid "Install ubports-boot"
+msgstr "Install ubports-boot"
+
+#: ../docs.ubports.com/porting/installing-16-04.rst:15
+msgid ""
+"We'll need to install the ubports-boot image before installing an image. "
+"Reboot your phone into fastboot mode, then do the following from your Halium "
+"tree::"
+msgstr ""
+"We'll need to install the ubports-boot image before installing an image. "
+"Reboot your phone into fastboot mode, then do the following from your Halium "
+"tree::"
+
+#: ../docs.ubports.com/porting/installing-16-04.rst:21
+msgid "Choose a rootfs"
+msgstr "Choose a rootfs"
+
+#: ../docs.ubports.com/porting/installing-16-04.rst:23
+msgid ""
+"Before installing a rootfs, you'll need one to install. Which one you choose "
+"will depend on whether your device uses CAF sources or not. To check if your "
+"device contains any CAF source (it probably does), do a ``grep -r [term]`` "
+"for all of the following terms in $BUILDDIR/device/MANUFACTURER/CODENAME. If "
+"any search returns hits, you have a CAF device::"
+msgstr ""
+"Before installing a rootfs, you'll need one to install. Which one you choose "
+"will depend on whether your device uses CAF sources or not. To check if your "
+"device contains any CAF source (it probably does), do a ``grep -r [term]`` "
+"for all of the following terms in $BUILDDIR/device/MANUFACTURER/CODENAME. If "
+"any search returns hits, you have a CAF device::"
+
+#: ../docs.ubports.com/porting/installing-16-04.rst:29
+msgid ""
+"If your device includes any CAF sources, choose `the CAF rootfs <http://ci."
+"ubports.com/job/xenial-7.1-caf-sudoku-rootfs/>`_."
+msgstr ""
+"If your device includes any CAF sources, choose `the CAF rootfs <http://ci."
+"ubports.com/job/xenial-7.1-caf-sudoku-rootfs/>`_."
+
+#: ../docs.ubports.com/porting/installing-16-04.rst:30
+msgid ""
+"If your device does not include any CAF sources, choose `the standard rootfs "
+"<http://ci.ubports.com/job/xenial-rootfs-armhf/>`_"
+msgstr ""
+"If your device does not include any CAF sources, choose `the standard rootfs "
+"<http://ci.ubports.com/job/xenial-rootfs-armhf/>`_"
+
+#: ../docs.ubports.com/porting/installing-16-04.rst:32
+msgid ""
+"In either case, download the large ``tar.gz`` file under the \"Last "
+"successful artifacts\" heading."
+msgstr ""
+"In either case, download the large ``tar.gz`` file under the \"Last "
+"successful artifacts\" heading."
+
+#: ../docs.ubports.com/porting/installing-16-04.rst:36
+msgid "Install system.img and rootfs"
+msgstr "Install system.img and rootfs"
+
+#: ../docs.ubports.com/porting/installing-16-04.rst:40
+msgid ""
+"Change the rootstock link to point to UBports once the actuallyfixit PR is "
+"merged."
+msgstr ""
+"Change the rootstock link to point to UBports once the actuallyfixit PR is "
+"merged."
+
+#: ../docs.ubports.com/porting/installing-16-04.rst:42
+msgid ""
+"Download the rootstock-touch-install script from `universalsuperbox/"
+"rootstock-ng <https://github.com/universalsuperbox/rootstock-ng/tree/xenial-"
+"actuallyfixit>`_. Boot your device into recovery and run the script as "
+"follows::"
+msgstr ""
+"Download the rootstock-touch-install script from `universalsuperbox/"
+"rootstock-ng <https://github.com/universalsuperbox/rootstock-ng/tree/xenial-"
+"actuallyfixit>`_. Boot your device into recovery and run the script as "
+"follows::"
+
+#: ../docs.ubports.com/porting/installing-16-04.rst:46
+msgid ""
+"The script will copy and extract the files to their proper places, then "
+"allow you to set the phablet user's password. If it gets all the way to "
+"``rebooting device`` and doesn't seem to produce any errors, it's time to "
+"continue to the next step. If something goes wrong, please get in touch with "
+"us. If your device doesn't reboot automatically, reboot it using your "
+"recovery's interface."
+msgstr ""
+"The script will copy and extract the files to their proper places, then "
+"allow you to set the phablet user's password. If it gets all the way to "
+"``rebooting device`` and doesn't seem to produce any errors, it's time to "
+"continue to the next step. If something goes wrong, please get in touch with "
+"us. If your device doesn't reboot automatically, reboot it using your "
+"recovery's interface."
+
+#: ../docs.ubports.com/porting/installing-16-04.rst:50
+msgid "Get SSH access"
+msgstr "Get SSH access"
+
+#: ../docs.ubports.com/porting/installing-16-04.rst:52
+msgid ""
+"When your device boots, it will likely stay at the bootloader screen. "
+"However, you should also get a new network connection on the computer you "
+"have it plugged in to. We will use this to debug the system."
+msgstr ""
+"When your device boots, it will likely stay at the bootloader screen. "
+"However, you should also get a new network connection on the computer you "
+"have it plugged in to. We will use this to debug the system."
+
+#: ../docs.ubports.com/porting/installing-16-04.rst:54
+msgid ""
+"To confirm that your device has booted correctly, run ``dmesg -w`` and watch "
+"for \"GNU/Linux device\" in the output. If you instead get something similar "
+"to \"ubports initrd i hit a nail\", please get in contact with us so we can "
+"find out why. You may also choose to run ``watch ip link`` and look for "
+"changes in network devices."
+msgstr ""
+"To confirm that your device has booted correctly, run ``dmesg -w`` and watch "
+"for \"GNU/Linux device\" in the output. If you instead get something similar "
+"to \"ubports initrd i hit a nail\", please get in contact with us so we can "
+"find out why. You may also choose to run ``watch ip link`` and look for "
+"changes in network devices."
+
+#: ../docs.ubports.com/porting/installing-16-04.rst:56
+msgid ""
+"Similar to the Halium reference rootfs, you should set your computer's IP on "
+"the newly connected RNDIS interface to ``10.15.19.100`` if you don't get one "
+"automatically. Then, run the following to access your device::"
+msgstr ""
+"Similar to the Halium reference rootfs, you should set your computer's IP on "
+"the newly connected RNDIS interface to ``10.15.19.100`` if you don't get one "
+"automatically. Then, run the following to access your device::"
+
+#: ../docs.ubports.com/porting/installing-16-04.rst:60
+msgid "The password will be the one that you set while running rootstock."
+msgstr "The password will be the one that you set while running rootstock."
+
+#: ../docs.ubports.com/porting/installing-16-04.rst:64
+msgid "Make / writeable"
+msgstr "Make / writeable"
+
+#: ../docs.ubports.com/porting/installing-16-04.rst:66
+msgid ""
+"Before we make any changes to the rootfs (which is in the next step), you'll "
+"need to remount it with write permissions. To do that, run the following "
+"command::"
+msgstr ""
+"Before we make any changes to the rootfs (which is in the next step), you'll "
+"need to remount it with write permissions. To do that, run the following "
+"command::"
+
+#: ../docs.ubports.com/porting/installing-16-04.rst:72
+msgid "Add udev rules"
+msgstr "Add udev rules"
+
+#: ../docs.ubports.com/porting/installing-16-04.rst:74
+msgid ""
+"Now that you're logged in, you must create some udev rules to allow Ubuntu "
+"Touch software to access your hardware. Run the following command, replacing "
+"[codename] with your device's codename.::"
+msgstr ""
+"Now that you're logged in, you must create some udev rules to allow Ubuntu "
+"Touch software to access your hardware. Run the following command, replacing "
+"[codename] with your device's codename.::"
+
+#: ../docs.ubports.com/porting/installing-16-04.rst:79
+msgid ""
+"Now, reboot the device. If all has gone well, you will eventually see the "
+"Ubuntu Touch spinner followed by Unity 8. Your lock password is the same as "
+"you set for SSH."
+msgstr ""
+"Now, reboot the device. If all has gone well, you will eventually see the "
+"Ubuntu Touch spinner followed by Unity 8. Your lock password is the same as "
+"you set for SSH."
+
+#: ../docs.ubports.com/porting/installing-16-04.rst:83
+msgid ""
+"This should be a little heavier on \"What to do when something goes wrong\" "
+"content."
+msgstr ""
+"This should be a little heavier on \"What to do when something goes wrong\" "
+"content."
+
+#: ../docs.ubports.com/porting/introduction.rst:2
+msgid "Porting information"
+msgstr "Porting information"
+
+#: ../docs.ubports.com/porting/introduction.rst:5
+msgid ""
+"If you are looking for information on installing Ubuntu Touch on a supported "
+"device, or if you would like to check if your device is supported, please "
+"see `this page <https://ubports.com/page/get-ubuntu-touch>`_."
+msgstr ""
+"If you are looking for information on installing Ubuntu Touch on a supported "
+"device, or if you would like to check if your device is supported, please "
+"see `this page <https://ubports.com/page/get-ubuntu-touch>`_."
+
+#: ../docs.ubports.com/porting/introduction.rst:7
+msgid ""
+"This section will introduce you to some of the specifics of porting Ubuntu "
+"Touch to an Android device."
+msgstr ""
+"This section will introduce you to some of the specifics of porting Ubuntu "
+"Touch to an Android device."
+
+#: ../docs.ubports.com/porting/introduction.rst:9
+msgid ""
+"Before you begin, you'll want to head over to `the Halium porting guide "
+"<http://docs.halium.org/en/latest/porting/first-steps.html>`_ and get your "
+"``systemimage`` built without errors. Once you're at the point of installing "
+"a rootfs, you can come back here."
+msgstr ""
+"Before you begin, you'll want to head over to `the Halium porting guide "
+"<http://docs.halium.org/en/latest/porting/first-steps.html>`_ and get your "
+"``systemimage`` built without errors. Once you're at the point of installing "
+"a rootfs, you can come back here."
+
+#: ../docs.ubports.com/porting/introduction.rst:11
+msgid ""
+"Start at :doc:`building-ubports-boot` if you'd like to install the UBports "
+"Ubuntu Touch 16.04 rootfs."
+msgstr ""
+"Start at :doc:`building-ubports-boot` if you'd like to install the UBports "
+"Ubuntu Touch 16.04 rootfs."
+
+#: ../docs.ubports.com/about/introduction.rst:2
+msgid "Introduction"
+msgstr "Introduction"
+
+#: ../docs.ubports.com/about/introduction.rst:4
+msgid ""
+"This is the documentation for the UBports project. Our goal is to create an "
+"open-source (GPL if possible) mobile operating system that converges and "
+"respects your freedom."
+msgstr ""
+"This is the documentation for the UBports project. Our goal is to create an "
+"open-source (GPL if possible) mobile operating system that converges and "
+"respects your freedom."
+
+#: ../docs.ubports.com/about/introduction.rst:7
+msgid "About UBports"
+msgstr "About UBports"
+
+#: ../docs.ubports.com/about/introduction.rst:9
+msgid ""
+"The UBports project was founded by Marius Gripsgard in 2015 and in its "
+"infancy was a place where developers could share ideas and educate each "
+"other in hopes of bringing the Ubuntu Touch platform to more and more "
+"devices."
+msgstr ""
+"The UBports project was founded by Marius Gripsgard in 2015 and in its "
+"infancy was a place where developers could share ideas and educate each "
+"other in hopes of bringing the Ubuntu Touch platform to more and more "
+"devices."
+
+#: ../docs.ubports.com/about/introduction.rst:11
+msgid ""
+"After Canonical suddenly announced `their plans to terminate support of "
+"Ubuntu Touch <https://insights.ubuntu.com/2017/04/05/growing-ubuntu-for-"
+"cloud-and-iot-rather-than-phone-and-convergence/>`_ in April of 2017, "
+"UBports and its sister projects began work on the open-source code, "
+"maintaining and expanding its possiblilities for the future."
+msgstr ""
+"After Canonical suddenly announced `their plans to terminate support of "
+"Ubuntu Touch <https://insights.ubuntu.com/2017/04/05/growing-ubuntu-for-"
+"cloud-and-iot-rather-than-phone-and-convergence/>`_ in April of 2017, "
+"UBports and its sister projects began work on the open-source code, "
+"maintaining and expanding its possiblilities for the future."
+
+#: ../docs.ubports.com/about/introduction.rst:14
+msgid "About the Documentation"
+msgstr "About the Documentation"
+
+#: ../docs.ubports.com/about/introduction.rst:16
+msgid ""
+"This documentation is always improving thanks to the members of the UBports "
+"community. It is written in ReStructuredText and converted into this "
+"readable form by `Sphinx <http://www.sphinx-doc.org/en/stable/>`_, "
+"`ReCommonMark <http://recommonmark.readthedocs.io/en/latest/>`_, and `Read "
+"the Docs <https://readthedocs.io>`_. You can start contributing by checking "
+"out the :doc:`Documentation intro </contribute/documentation>`."
+msgstr ""
+"This documentation is always improving thanks to the members of the UBports "
+"community. It is written in ReStructuredText and converted into this "
+"readable form by `Sphinx <http://www.sphinx-doc.org/en/stable/>`_, "
+"`ReCommonMark <http://recommonmark.readthedocs.io/en/latest/>`_, and `Read "
+"the Docs <https://readthedocs.io>`_. You can start contributing by checking "
+"out the :doc:`Documentation intro </contribute/documentation>`."
+
+#: ../docs.ubports.com/about/introduction.rst:18
+msgid ""
+"All documents are licensed under the Creative Commons Attribution ShareAlike "
+"4.0 (`CC-BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0/>`_) "
+"license. Please give attribution to \"The UBports Community\"."
+msgstr ""
+"All documents are licensed under the Creative Commons Attribution ShareAlike "
+"4.0 (`CC-BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0/>`_) "
+"license. Please give attribution to \"The UBports Community\"."
+
+#: ../docs.ubports.com/about/introduction.rst:21
+msgid "Attribution"
+msgstr "Attribution"
+
+#: ../docs.ubports.com/about/introduction.rst:23
+msgid ""
+"This documentation was heavily modeled after the `Godot Engine's "
+"Documentation <http://docs.godotengine.org/en/stable/>`_, attribution to "
+"Juan Linietsky, Ariel Manzur and the Godot community."
+msgstr ""
+"This documentation was heavily modeled after the `Godot Engine's "
+"Documentation <http://docs.godotengine.org/en/stable/>`_, attribution to "
+"Juan Linietsky, Ariel Manzur and the Godot community."
+
+#: ../docs.ubports.com/about/process/index.rst:2
+msgid "Processes"
+msgstr "Processes"
+
+#: ../docs.ubports.com/about/process/index.rst:4
+msgid ""
+"This section of the documentation details standardized processes for "
+"different teams."
+msgstr ""
+"This section of the documentation details standardized processes for "
+"different teams."
+
+#: ../docs.ubports.com/about/process/index.rst:7
+msgid ""
+"The process definitions are still a work in progress and need to be "
+"completed by the respective teams."
+msgstr ""
+"The process definitions are still a work in progress and need to be "
+"completed by the respective teams."
+
+#: ../docs.ubports.com/about/process/issue-tracking.rst:2
+msgid "Issue-Tracking Guidelines"
+msgstr "Issue-Tracking Guidelines"
+
+#: ../docs.ubports.com/about/process/issue-tracking.rst:4
+msgid ""
+"This document describes the standard process of dealing with new issues in "
+"UBports projects. Not to be confused with the :doc:`guide on writing a good "
+"bugreport </contribute/bugreporting>`."
+msgstr ""
+"This document describes the standard process of dealing with new issues in "
+"UBports projects. Not to be confused with the :doc:`guide on writing a good "
+"bugreport </contribute/bugreporting>`."
+
+#: ../docs.ubports.com/about/process/issue-tracking.rst:7
+msgid "Where are bugs tracked?"
+msgstr "Where are bugs tracked?"
+
+#: ../docs.ubports.com/about/process/issue-tracking.rst:9
+msgid ""
+"Since our quality assurance depends heavily on the community, we try to "
+"track issues where the user would expect them, instead of seperated by "
+"repository. This means, that issues of almost all components that are "
+"distributed as with the system-image are tracked in the `Ubuntu Touch "
+"tracker <https://github.com/ubports/ubuntu-touch>`__. An exception of this "
+"are click-apps that can be updated independently through the OpenStore."
+msgstr ""
+"Since our quality assurance depends heavily on the community, we try to "
+"track issues where the user would expect them, instead of seperated by "
+"repository. This means, that issues of almost all components that are "
+"distributed as with the system-image are tracked in the `Ubuntu Touch "
+"tracker <https://github.com/ubports/ubuntu-touch>`__. An exception of this "
+"are click-apps that can be updated independently through the OpenStore."
+
+#: ../docs.ubports.com/about/process/issue-tracking.rst:17
+msgid ""
+"Most other repositories track isues locally. If you're unsure whether a "
+"repository uses its own tracker or not, consult the README.md file. "
+"Repositories that don't track issues locally have their bugtracker disabled."
+msgstr ""
+"Most other repositories track isues locally. If you're unsure whether a "
+"repository uses its own tracker or not, consult the README.md file. "
+"Repositories that don't track issues locally have their bugtracker disabled."
+
+#: ../docs.ubports.com/about/process/issue-tracking.rst:21
+msgid ""
+"This page is mainly about the Ubuntu Touch tracker, but most principles "
+"apply to other projects as well."
+msgstr ""
+"This page is mainly about the Ubuntu Touch tracker, but most principles "
+"apply to other projects as well."
+
+#: ../docs.ubports.com/about/process/issue-tracking.rst:25
+msgid ""
+"Practicality beats purity! Exceptions might apply and should be described in "
+"the projects README.md file."
+msgstr ""
+"Practicality beats purity! Exceptions might apply and should be described in "
+"the projects README.md file."
+
+#: ../docs.ubports.com/about/process/issue-tracking.rst:28
+msgid "GitHub projects"
+msgstr "GitHub projects"
+
+#: ../docs.ubports.com/about/process/issue-tracking.rst:30
+msgid ""
+"To increase transparency and communication, GitHub projects (Kanban-Boards) "
+"are used whereever practical. In case of github.com/ubports/ubuntu-touch, a "
+"single project is used for all issues. Projects support filtering by labels, "
+"so that only issues that belong to a specific team or affect a specific "
+"device can be viewed."
+msgstr ""
+"To increase transparency and communication, GitHub projects (Kanban-Boards) "
+"are used whereever practical. In case of github.com/ubports/ubuntu-touch, a "
+"single project is used for all issues. Projects support filtering by labels, "
+"so that only issues that belong to a specific team or affect a specific "
+"device can be viewed."
+
+#: ../docs.ubports.com/about/process/issue-tracking.rst:36
+msgid "These are the standard columns:"
+msgstr "These are the standard columns:"
+
+#: ../docs.ubports.com/about/process/issue-tracking.rst:38
+msgid ""
+"**None (awaiting triage)**: The issue has been approved by a member of the "
+"qa team and is awaiting review from the responsible development team. if the "
+"issue is a bug, instructions to reproduce are included in the issue "
+"description. if the issue is a feature request, it has passed a primary "
+"sanity check by the qa-team but has not yet been accepted by the responsible "
+"development-team."
+msgstr ""
+"**None (awaiting triage)**: The issue has been approved by a member of the "
+"qa team and is awaiting review from the responsible development team. if the "
+"issue is a bug, instructions to reproduce are included in the issue "
+"description. if the issue is a feature request, it has passed a primary "
+"sanity check by the qa-team but has not yet been accepted by the responsible "
+"development-team."
+
+#: ../docs.ubports.com/about/process/issue-tracking.rst:39
+msgid ""
+"**Accepted**: The issue has been accepted by the responsible development-"
+"team. If the issue is a bugreport, the team has decided that it should be "
+"fixable and accepts the responsibility. If the issue is a featrue request, "
+"the team thinks it should be implemented as described."
+msgstr ""
+"**Accepted**: The issue has been accepted by the responsible development-"
+"team. If the issue is a bugreport, the team has decided that it should be "
+"fixable and accepts the responsibility. If the issue is a featrue request, "
+"the team thinks it should be implemented as described."
+
+#: ../docs.ubports.com/about/process/issue-tracking.rst:40
+msgid ""
+"**In Development**: A patch is in development. Usually means that a "
+"developer is assigned to the issue."
+msgstr ""
+"**In Development**: A patch is in development. Usually means that a "
+"developer is assigned to the issue."
+
+#: ../docs.ubports.com/about/process/issue-tracking.rst:41
+msgid ""
+"**Quality Assurance**: The patch is completed and has passed initial "
+"testing. The QA team will now review it on all devices and provide feedback. "
+"If problems are found, the issue is moved back to “In Development”."
+msgstr ""
+"**Quality Assurance**: The patch is completed and has passed initial "
+"testing. The QA team will now review it on all devices and provide feedback. "
+"If problems are found, the issue is moved back to “In Development”."
+
+#: ../docs.ubports.com/about/process/issue-tracking.rst:42
+msgid ""
+"**Release Candidate**: The patch has passed QA and is ready for release. In "
+"case of deb-packages that are included in the system-image, the patch will "
+"be included in the next over-the-air update on the rc channel, and, if "
+"everything goes well, in the next release of the stable channel."
+msgstr ""
+"**Release Candidate**: The patch has passed QA and is ready for release. In "
+"case of deb-packages that are included in the system-image, the patch will "
+"be included in the next over-the-air update on the rc channel, and, if "
+"everything goes well, in the next release of the stable channel."
+
+#: ../docs.ubports.com/about/process/issue-tracking.rst:43
+msgid ""
+"**None (removed from the project)**: A patch has been released (issue closed "
+"with a message linking to the patch) or the issue has been rejected (issue "
+"closed and labeled “wontfix”)."
+msgstr ""
+"**None (removed from the project)**: A patch has been released (issue closed "
+"with a message linking to the patch) or the issue has been rejected (issue "
+"closed and labeled “wontfix”)."
+
+#: ../docs.ubports.com/about/process/issue-tracking.rst:46
+msgid "Labels"
+msgstr "Labels"
+
+#: ../docs.ubports.com/about/process/issue-tracking.rst:48
+msgid ""
+"All issues - even closed ones - should be labeled to allow the use of "
+"GitHub's global filtering. For example, `these are all of the issues labeled "
+"'enhancement' inside @ubports <https://github.com/search?utf8=%E2%9C%93&q=is"
+"%3Aopen+org%3Aubports+label%3A%22feature+request%22&type=>`_. Consult the "
+"`GitHub help pages <https://help.github.com/articles/about-searching-on-"
+"github/>`__ for more information on search and filtering."
+msgstr ""
+"All issues - even closed ones - should be labeled to allow the use of "
+"GitHub's global filtering. For example, `these are all of the issues labeled "
+"'enhancement' inside @ubports <https://github.com/search?utf8=%E2%9C%93&q=is"
+"%3Aopen+org%3Aubports+label%3A%22feature+request%22&type=>`_. Consult the "
+"`GitHub help pages <https://help.github.com/articles/about-searching-on-"
+"github/>`__ for more information on search and filtering."
+
+#: ../docs.ubports.com/about/process/issue-tracking.rst:51
+msgid "Here's a list of labels that are normally used by all repositories."
+msgstr "Here's a list of labels that are normally used by all repositories."
+
+#: ../docs.ubports.com/about/process/issue-tracking.rst:53
+msgid ""
+"**needs confirmation**: The bug needs confirmation and / or further "
+"information from affected users"
+msgstr ""
+"**needs confirmation**: The bug needs confirmation and / or further "
+"information from affected users"
+
+#: ../docs.ubports.com/about/process/issue-tracking.rst:55
+msgid ""
+"**bug**: This issue is a confirmed bug. If it's reproducable, reproduction "
+"steps are described."
+msgstr ""
+"**bug**: This issue is a confirmed bug. If it's reproducable, reproduction "
+"steps are described."
+
+#: ../docs.ubports.com/about/process/issue-tracking.rst:57
+msgid "**opinion**: This issue needs further discussion."
+msgstr "**opinion**: This issue needs further discussion."
+
+#: ../docs.ubports.com/about/process/issue-tracking.rst:58
+msgid "**enhancement**: This issue is a feature request."
+msgstr "**enhancement**: This issue is a feature request."
+
+#: ../docs.ubports.com/about/process/issue-tracking.rst:59
+msgid "**question**: This issue is a support request or general question."
+msgstr "**question**: This issue is a support request or general question."
+
+#: ../docs.ubports.com/about/process/issue-tracking.rst:60
+msgid ""
+"**invalid**: This issue can not be confirmed or was reported in the wrong "
+"tracker."
+msgstr ""
+"**invalid**: This issue can not be confirmed or was reported in the wrong "
+"tracker."
+
+#: ../docs.ubports.com/about/process/issue-tracking.rst:62
+msgid ""
+"**duplicate**: This has already been reported somewhere else. Please provide "
+"a link and close."
+msgstr ""
+"**duplicate**: This has already been reported somewhere else. Please provide "
+"a link and close."
+
+#: ../docs.ubports.com/about/process/issue-tracking.rst:64
+msgid ""
+"**help wanted**: This issue is ready to be picked up by a community "
+"developer."
+msgstr ""
+"**help wanted**: This issue is ready to be picked up by a community "
+"developer."
+
+#: ../docs.ubports.com/about/process/issue-tracking.rst:66
+msgid ""
+"**good first issue**: This issue is not critical and trivial to fix. It is "
+"reserved for new contributors as a place to start."
+msgstr ""
+"**good first issue**: This issue is not critical and trivial to fix. It is "
+"reserved for new contributors as a place to start."
+
+#: ../docs.ubports.com/about/process/issue-tracking.rst:68
+msgid ""
+"**wontfix**: It does not make sense to fix this bug, since it will probably "
+"resolve itself, it will be too much work to fix it, it's not fixable, or an "
+"underlying component will soon change."
+msgstr ""
+"**wontfix**: It does not make sense to fix this bug, since it will probably "
+"resolve itself, it will be too much work to fix it, it's not fixable, or an "
+"underlying component will soon change."
+
+#: ../docs.ubports.com/about/process/issue-tracking.rst:72
+msgid ""
+"Additional special labels can be defined. As an example, here's the labels "
+"used in the Ubuntu Touch tracker:"
+msgstr ""
+"Additional special labels can be defined. As an example, here's the labels "
+"used in the Ubuntu Touch tracker:"
+
+#: ../docs.ubports.com/about/process/issue-tracking.rst:75
+msgid ""
+"**critical (devel)**: This critical issue that only occurs on the devel "
+"channel is blocking the release of the next rc image."
+msgstr ""
+"**critical (devel)**: This critical issue that only occurs on the devel "
+"channel is blocking the release of the next rc image."
+
+#: ../docs.ubports.com/about/process/issue-tracking.rst:77
+msgid ""
+"**critical (rc)**: This critical issue that only occurs on the devel and rc "
+"channel is blocking the release of the next stable release. Usually, issues "
+"that can not simply be moved to a different release and have the power to "
+"postpone the release are labeled this."
+msgstr ""
+"**critical (rc)**: This critical issue that only occurs on the devel and rc "
+"channel is blocking the release of the next stable release. Usually, issues "
+"that can not simply be moved to a different release and have the power to "
+"postpone the release are labeled this."
+
+#: ../docs.ubports.com/about/process/issue-tracking.rst:81
+msgid ""
+"**device: [DEVICE CODENAME]**: This issue affects only the specified "
+"device(s)."
+msgstr ""
+"**device: [DEVICE CODENAME]**: This issue affects only the specified "
+"device(s)."
+
+#: ../docs.ubports.com/about/process/issue-tracking.rst:83
+msgid ""
+"**team: [TEAM NAME]**: This issue is falls under the responsibility of a "
+"specific team (hal, middleware, UI)."
+msgstr ""
+"**team: [TEAM NAME]**: This issue is falls under the responsibility of a "
+"specific team (hal, middleware, UI)."
+
+#: ../docs.ubports.com/about/process/issue-tracking.rst:86
+msgid ""
+"If a repository that tracks issues locally defines it's own labels, they "
+"should be documented in the README.md."
+msgstr ""
+"If a repository that tracks issues locally defines it's own labels, they "
+"should be documented in the README.md."
+
+#: ../docs.ubports.com/about/process/issue-tracking.rst:90
+msgid "Milestones"
+msgstr "Milestones"
+
+#: ../docs.ubports.com/about/process/issue-tracking.rst:92
+msgid ""
+"Milestones are used for stable OTA releases only. In general, milestones for "
+"the work-in-progress OTA and the next OTA are created. The ETA is set, once "
+"the work on the release starts (that is 6 weeks from start date), but can be "
+"adjusted afterwards. See the :doc:`release-schedule <release-schedule>` for "
+"more info."
+msgstr ""
+"Milestones are used for stable OTA releases only. In general, milestones for "
+"the work-in-progress OTA and the next OTA are created. The ETA is set, once "
+"the work on the release starts (that is 6 weeks from start date), but can be "
+"adjusted afterwards. See the :doc:`release-schedule <release-schedule>` for "
+"more info."
+
+#: ../docs.ubports.com/about/process/issue-tracking.rst:99
+msgid "Assignees"
+msgstr "Assignees"
+
+#: ../docs.ubports.com/about/process/issue-tracking.rst:101
+msgid ""
+"To make it transparent who's working on an issue, the developer should be "
+"assigned. This also allows the use of GitHub's global filtering as a type of "
+"TODO list. For example, `this is everything assigned to mariogrip in "
+"@ubports <https://github.com/search?utf8=%E2%9C%93&q=is%3Aopen+org%3Aubports"
+"+assignee%3Amariogrip&type=>`_."
+msgstr ""
+"To make it transparent who's working on an issue, the developer should be "
+"assigned. This also allows the use of GitHub's global filtering as a type of "
+"TODO list. For example, `this is everything assigned to mariogrip in "
+"@ubports <https://github.com/search?utf8=%E2%9C%93&q=is%3Aopen+org%3Aubports"
+"+assignee%3Amariogrip&type=>`_."
+
+#: ../docs.ubports.com/about/process/issue-tracking.rst:105
+msgid ""
+"Developers are asked to keep their list short and to keep the status of "
+"their issues up-to-date."
+msgstr ""
+"Developers are asked to keep their list short and to keep the status of "
+"their issues up-to-date."
+
+#: ../docs.ubports.com/about/process/issue-tracking.rst:108
+msgid "Examples"
+msgstr "Examples"
+
+#: ../docs.ubports.com/about/process/issue-tracking.rst:111
+msgid "Bug Lifecycle"
+msgstr "Bug Lifecycle"
+
+#: ../docs.ubports.com/about/process/issue-tracking.rst:114
+msgid ""
+"The same principle applies to feature requests. The only difference is, that "
+"instead of the label **bug**, the label **enhancement** is used. The **needs "
+"confirmation** label is not applicable for feature requests."
+msgstr ""
+"The same principle applies to feature requests. The only difference is, that "
+"instead of the label **bug**, the label **enhancement** is used. The **needs "
+"confirmation** label is not applicable for feature requests."
+
+#: ../docs.ubports.com/about/process/issue-tracking.rst:118
+msgid "A *User* files a new bug using the issue-template."
+msgstr "A *User* files a new bug using the issue-template."
+
+#: ../docs.ubports.com/about/process/issue-tracking.rst:119
+msgid ""
+"The *QA-Team* adds the label **needs confirmation** and tries to work with "
+"the user to confirm the bug and add potentially missing information to the "
+"report. Once the report is complete a **team-label** will be added to the "
+"issue, the issue will be put on the **awaiting-triage-list** of the project "
+"and the label needs confirmation will be replaced with **bug**."
+msgstr ""
+"The *QA-Team* adds the label **needs confirmation** and tries to work with "
+"the user to confirm the bug and add potentially missing information to the "
+"report. Once the report is complete a **team-label** will be added to the "
+"issue, the issue will be put on the **awaiting-triage-list** of the project "
+"and the label needs confirmation will be replaced with **bug**."
+
+#: ../docs.ubports.com/about/process/issue-tracking.rst:120
+msgid ""
+"The affected *Team* will triage the issue and either reject (label "
+"**wontfix**, close and remove from the project) or accept (move to "
+"“Accepted”) the issue. If no team member can be assigned and the issue can "
+"be handled by the community, it is labeled **help wanted**. If possible, the "
+"team will provide hints on how to resolve the issue and further details on "
+"the how the fix should be implemented. For non-critical issues that are "
+"trivial to fix, the label **good first issue** can be added as well."
+msgstr ""
+"The affected *Team* will triage the issue and either reject (label "
+"**wontfix**, close and remove from the project) or accept (move to "
+"“Accepted”) the issue. If no team member can be assigned and the issue can "
+"be handled by the community, it is labeled **help wanted**. If possible, the "
+"team will provide hints on how to resolve the issue and further details on "
+"the how the fix should be implemented. For non-critical issues that are "
+"trivial to fix, the label **good first issue** can be added as well."
+
+#: ../docs.ubports.com/about/process/issue-tracking.rst:121
+msgid ""
+"Once a *developer* is assigned and starts working on the issue, it is moved "
+"to “In Development”. As soon as he has something to show for, the issue is "
+"moved to “Quality Assurance” for feedback. If neccessary, the developer "
+"should provide hints on how to test his patch in a comment on the issue."
+msgstr ""
+"Once a *developer* is assigned and starts working on the issue, it is moved "
+"to “In Development”. As soon as he has something to show for, the issue is "
+"moved to “Quality Assurance” for feedback. If neccessary, the developer "
+"should provide hints on how to test his patch in a comment on the issue."
+
+#: ../docs.ubports.com/about/process/issue-tracking.rst:122
+msgid ""
+"The *QA-Team* tests the fix on all devices and provides feedback to the "
+"developer. If problems are found, the issue goes back to “In Development”, "
+"else it’s closed and moved to “Release Candidate” to be included in the next "
+"release."
+msgstr ""
+"The *QA-Team* tests the fix on all devices and provides feedback to the "
+"developer. If problems are found, the issue goes back to “In Development”, "
+"else it’s closed and moved to “Release Candidate” to be included in the next "
+"release."
+
+#: ../docs.ubports.com/about/process/issue-tracking.rst:123
+msgid ""
+"Once the fix is included in the rc image, the issue is closed and (if not "
+"done already) added to a milestone. Once the milestone is released, the "
+"issue is removed from the project."
+msgstr ""
+"Once the fix is included in the rc image, the issue is closed and (if not "
+"done already) added to a milestone. Once the milestone is released, the "
+"issue is removed from the project."
+
+#: ../docs.ubports.com/about/process/release-schedule.rst:2
+msgid "Release Schedule"
+msgstr "Release Schedule"
+
+#: ../docs.ubports.com/about/process/release-schedule.rst:4
+msgid "OTA updates usually follow this rhythm:"
+msgstr "OTA updates usually follow this rhythm:"
+
+#: ../docs.ubports.com/about/process/release-schedule.rst:6
+msgid "devel: daily builds"
+msgstr "devel: daily builds"
+
+#: ../docs.ubports.com/about/process/release-schedule.rst:7
+msgid "rc: weekly if no critical issue exists in the devel channel"
+msgstr "rc: weekly if no critical issue exists in the devel channel"
+
+#: ../docs.ubports.com/about/process/release-schedule.rst:8
+msgid ""
+"stable: every six through eight weeks, if no critical issue exists in the rc "
+"channel"
+msgstr ""
+"stable: every six through eight weeks, if no critical issue exists in the rc "
+"channel"
+
+#: ../docs.ubports.com/about/process/release-schedule.rst:11
+msgid ""
+"This is not a definitive cycle. Stable releases are ready when they're ready "
+"and should not introduce new bugs or ship very incomplete features. Since "
+"the OTA update can not be released before all critical issues are closed, "
+"the ETA might have to be moved by making an educated guess for when all the "
+"issues can be handled. If there are too many issues added to a milestone, "
+"they are either removed or added to the next milestone."
+msgstr ""
+"This is not a definitive cycle. Stable releases are ready when they're ready "
+"and should not introduce new bugs or ship very incomplete features. Since "
+"the OTA update can not be released before all critical issues are closed, "
+"the ETA might have to be moved by making an educated guess for when all the "
+"issues can be handled. If there are too many issues added to a milestone, "
+"they are either removed or added to the next milestone."
+
+#: ../docs.ubports.com/appdev/clickable/cordova.rst:2
+msgid "Using clickable for cordova and HTML-5 development"
+msgstr "Using clickable for cordova and HTML-5 development"
+
+#: ../docs.ubports.com/appdev/clickable/cordova.rst:5
+msgid "About the guide"
+msgstr "About the guide"
+
+#: ../docs.ubports.com/appdev/clickable/cordova.rst:7
+msgid ""
+"The purpose of the page is to provide a guide similar to :doc:`this one "
+"<setup>` for developing Cordova-based (and maybe other HTML5-based) "
+"applications using LXC container. Such applications are built in chroot "
+"environment, and build system is for some time unsupported in Xenial. I "
+"don't know if there are still any developers who use Cordova for Ubuntu, but "
+"if there are some, I hope the guide will be useful."
+msgstr ""
+"The purpose of the page is to provide a guide similar to :doc:`this one "
+"<setup>` for developing Cordova-based (and maybe other HTML5-based) "
+"applications using LXC container. Such applications are built in chroot "
+"environment, and build system is for some time unsupported in Xenial. I "
+"don't know if there are still any developers who use Cordova for Ubuntu, but "
+"if there are some, I hope the guide will be useful."
+
+#: ../docs.ubports.com/appdev/clickable/cordova.rst:9
+msgid ""
+"The steps needed to setup working environment are basicly the same as in "
+"original guide with few modifications specific to build environment."
+msgstr ""
+"The steps needed to setup working environment are basicly the same as in "
+"original guide with few modifications specific to build environment."
+
+#: ../docs.ubports.com/appdev/clickable/cordova.rst:11
+msgid ""
+"Set up LXD as detailed in in :doc:`the original setup post <setup>`. We also "
+"need to enable **overlay** kernel module (it is required by *click* command "
+"to function properly)::"
+msgstr ""
+"Set up LXD as detailed in in :doc:`the original setup post <setup>`. We also "
+"need to enable **overlay** kernel module (it is required by *click* command "
+"to function properly)::"
+
+#: ../docs.ubports.com/appdev/clickable/cordova.rst:15
+msgid ""
+"We need a 17.04+ container, because fixes for build system are published "
+"only there and not in 16.04::"
+msgstr ""
+"We need a 17.04+ container, because fixes for build system are published "
+"only there and not in 16.04::"
+
+#: ../docs.ubports.com/appdev/clickable/cordova.rst:23
+msgid ""
+"Inside the container Inside the container we have to do basically the same "
+"three things: basic configuration of the system, creation of a new not root "
+"user and configuring *clickable*. Steps to create basic configuration of the "
+"system and a new not root user are the same as in original post::"
+msgstr ""
+"Inside the container Inside the container we have to do basically the same "
+"three things: basic configuration of the system, creation of a new not root "
+"user and configuring *clickable*. Steps to create basic configuration of the "
+"system and a new not root user are the same as in original post::"
+
+#: ../docs.ubports.com/appdev/clickable/cordova.rst:30
+msgid "Configure Clickable"
+msgstr "Configure Clickable"
+
+#: ../docs.ubports.com/appdev/clickable/cordova.rst:32
+msgid "Download *clickable* and add it to your ``PATH``."
+msgstr "Download *clickable* and add it to your ``PATH``."
+
+#: ../docs.ubports.com/appdev/clickable/cordova.rst:34
+msgid ""
+"Install NodeJS, build tools, and the cordova-cli package from the Cordova "
+"PPA::"
+msgstr ""
+"Install NodeJS, build tools, and the cordova-cli package from the Cordova "
+"PPA::"
+
+#: ../docs.ubports.com/appdev/clickable/cordova.rst:41
+msgid "Create chroot environment for building apps::"
+msgstr "Create chroot environment for building apps::"
+
+#: ../docs.ubports.com/appdev/clickable/cordova.rst:45
+msgid ""
+"That's it. We now should have a working clickable environment for building "
+"Cordova apps."
+msgstr ""
+"That's it. We now should have a working clickable environment for building "
+"Cordova apps."
+
+#: ../docs.ubports.com/appdev/clickable/cordova.rst:49
+msgid "Notes on Cordova usage"
+msgstr "Notes on Cordova usage"
+
+#: ../docs.ubports.com/appdev/clickable/cordova.rst:51
+msgid ""
+"There are number of unfixed long-standing issues with Cordova for Ubuntu. So "
+"if you'd like to create apps using Cordova, you might be interested in "
+"`project's fork <https://github.com/milikhin/cordova-ubuntu>`_. It is based "
+"on last official version, but adds few fixes that make it more usable:"
+msgstr ""
+"There are number of unfixed long-standing issues with Cordova for Ubuntu. So "
+"if you'd like to create apps using Cordova, you might be interested in "
+"`project's fork <https://github.com/milikhin/cordova-ubuntu>`_. It is based "
+"on last official version, but adds few fixes that make it more usable:"
+
+#: ../docs.ubports.com/appdev/clickable/cordova.rst:53
+msgid ""
+"WebView is automatically resized when on-screen keyboard is shown/hidden"
+msgstr ""
+"WebView is automatically resized when on-screen keyboard is shown/hidden"
+
+#: ../docs.ubports.com/appdev/clickable/cordova.rst:54
+msgid "Copy/Paste operations are supported with touchscreen"
+msgstr "Copy/Paste operations are supported with touchscreen"
+
+#: ../docs.ubports.com/appdev/clickable/cordova.rst:56
+msgid ""
+"There is also repository with patched `File plugin <https://github.com/"
+"milikhin/cordova-plugin-file>`__, which gives applications ability to list "
+"hidden files and directories."
+msgstr ""
+"There is also repository with patched `File plugin <https://github.com/"
+"milikhin/cordova-plugin-file>`__, which gives applications ability to list "
+"hidden files and directories."
+
+#: ../docs.ubports.com/appdev/clickable/setup.rst:2
+msgid "Setting up clickable"
+msgstr "Setting up clickable"
+
+#: ../docs.ubports.com/appdev/clickable/setup.rst:4
+msgid ""
+"`Clickable <https://github.com/bhdouglass/clickable>`__ is a meta-build "
+"system for Ubuntu Touch applications that allows you to compile and build "
+"click packages in a docker container. Setting up clickable is simple and "
+"makes app development fast and easy!"
+msgstr ""
+"`Clickable <https://github.com/bhdouglass/clickable>`__ is a meta-build "
+"system for Ubuntu Touch applications that allows you to compile and build "
+"click packages in a docker container. Setting up clickable is simple and "
+"makes app development fast and easy!"
+
+#: ../docs.ubports.com/appdev/clickable/setup.rst:10
+msgid "Install"
+msgstr "Install"
+
+#: ../docs.ubports.com/appdev/clickable/setup.rst:12
+msgid "On Ubuntu you can also install clickable from a ppa:"
+msgstr "On Ubuntu you can also install clickable from a ppa:"
+
+#: ../docs.ubports.com/appdev/clickable/setup.rst:22
+msgid ""
+"For other modern GNU/Linux distributions, you can install from the git "
+"repository. Note: You must have adb and docker installed on your system."
+msgstr ""
+"For other modern GNU/Linux distributions, you can install from the git "
+"repository. Note: You must have adb and docker installed on your system."
+
+#: ../docs.ubports.com/appdev/clickable/setup.rst:34
+msgid "First app"
+msgstr "First app"
+
+#: ../docs.ubports.com/appdev/clickable/setup.rst:36
+msgid ""
+"Now you are set up to build your first app! Activate the developer mode on "
+"your device and connect it to your PC to run your app directly on the device:"
+msgstr ""
+"Now you are set up to build your first app! Activate the developer mode on "
+"your device and connect it to your PC to run your app directly on the device:"
+
+#: ../docs.ubports.com/appdev/clickable/setup.rst:45
+msgid ""
+"This should build and start an app on your Ubuntu Touch device displaying "
+"\"Hello World!\""
+msgstr ""
+"This should build and start an app on your Ubuntu Touch device displaying "
+"\"Hello World!\""
+
+#: ../docs.ubports.com/appdev/clickable/setup.rst:49
+msgid "Next Steps"
+msgstr "Next Steps"
+
+#: ../docs.ubports.com/appdev/clickable/setup.rst:51
+msgid ""
+"Documentation for clickable and all it's features can be found on `Read the "
+"Docs <http://clickable.bhdouglass.com/en/latest/>`__."
+msgstr ""
+"Documentation for clickable and all it's features can be found on `Read the "
+"Docs <http://clickable.bhdouglass.com/en/latest/>`__."
+
+#: ../docs.ubports.com/appdev/cookbook.rst:2
+msgid "App development cookbook"
+msgstr "App development cookbook"
+
+#: ../docs.ubports.com/appdev/cookbook.rst:5
+msgid "Unofficial resources"
+msgstr "Unofficial resources"
+
+#: ../docs.ubports.com/appdev/cookbook.rst:7
+msgid ""
+"In this section you will find links to external resources about creating "
+"applications for Ubuntu Touch."
+msgstr ""
+"In this section you will find links to external resources about creating "
+"applications for Ubuntu Touch."
+
+#: ../docs.ubports.com/appdev/cookbook.rst:9
+msgid ""
+"`Ubuntu Touch programming book <https://www.gitbook.com/book/mimecar/ubuntu-"
+"touch-programming-course/details>`__"
+msgstr ""
+"`Ubuntu Touch programming book <https://www.gitbook.com/book/mimecar/ubuntu-"
+"touch-programming-course/details>`__"
+
+#: ../docs.ubports.com/appdev/cookbook.rst:12
+msgid "Playground"
+msgstr "Playground"
+
+#: ../docs.ubports.com/appdev/cookbook.rst:14
+msgid ""
+"In a completely free and open source community, it is natural to have "
+"community members exploring the limits of the platform in many many "
+"directions. In this section you will find links to external resources that "
+"do exactly that: Explore. The purpose of this list is to show the unlimited "
+"possibilities of an open platform like Ubuntu Touch."
+msgstr ""
+"In a completely free and open source community, it is natural to have "
+"community members exploring the limits of the platform in many many "
+"directions. In this section you will find links to external resources that "
+"do exactly that: Explore. The purpose of this list is to show the unlimited "
+"possibilities of an open platform like Ubuntu Touch."
+
+#: ../docs.ubports.com/appdev/cookbook.rst:17
+msgid ""
+"The resources listed here do not neccessarily represent the officially "
+"endorsed way of developing applications for Ubuntu Touch, but are "
+"interesting experiments."
+msgstr ""
+"The resources listed here do not neccessarily represent the officially "
+"endorsed way of developing applications for Ubuntu Touch, but are "
+"interesting experiments."
+
+#: ../docs.ubports.com/appdev/cookbook.rst:19
+msgid ""
+"`Free Pascal development for Ubuntu Touch <http://kriscode.blogspot."
+"tw/2016/09/freepascal-development-for-ubuntu-phone.html>`__"
+msgstr ""
+"`Free Pascal development for Ubuntu Touch <http://kriscode.blogspot."
+"tw/2016/09/freepascal-development-for-ubuntu-phone.html>`__"
+
+#: ../docs.ubports.com/appdev/cookbook.rst:20
+msgid ""
+"`Lazarus development for Ubuntu Touch <http://kriscode.blogspot.tw/2016/10/"
+"lazarus-development-for-ubuntu-phone.html>`__"
+msgstr ""
+"`Lazarus development for Ubuntu Touch <http://kriscode.blogspot.tw/2016/10/"
+"lazarus-development-for-ubuntu-phone.html>`__"
+
+#: ../docs.ubports.com/appdev/cookbook.rst:21
+msgid ""
+"`Geany on Ubuntu Touch device as text editor, source code editor, debugger "
+"and compiler for multiple languages <http://kriscode.blogspot.tw/2017/10/"
+"geany-on-ubuntu-touch-device-as-text.html>`__"
+msgstr ""
+"`Geany on Ubuntu Touch device as text editor, source code editor, debugger "
+"and compiler for multiple languages <http://kriscode.blogspot.tw/2017/10/"
+"geany-on-ubuntu-touch-device-as-text.html>`__"
+
+#: ../docs.ubports.com/appdev/index.rst:4
+msgid ""
+"Welcome to an open source and free platform under constant scrutiny and "
+"improvement by a vibrant global community, whose energy, connectedness, "
+"talent and commitment is unmatched. Ubuntu is also the third most deployed "
+"desktop OS in the world."
+msgstr ""
+"Welcome to an open source and free platform under constant scrutiny and "
+"improvement by a vibrant global community, whose energy, connectedness, "
+"talent and commitment is unmatched. Ubuntu is also the third most deployed "
+"desktop OS in the world."
+
+#: ../docs.ubports.com/appdev/index.rst:7
+msgid "Clickable"
+msgstr "Clickable"
+
+#: ../docs.ubports.com/appdev/index.rst:9
+msgid ""
+"Clickable is a meta-build system for Ubuntu Touch applications that allows "
+"you to compile and build click packages in a docker container. It is "
+"currently the easiest and most convenient way of building click packages for "
+"Ubuntu Touch."
+msgstr ""
+"Clickable is a meta-build system for Ubuntu Touch applications that allows "
+"you to compile and build click packages in a docker container. It is "
+"currently the easiest and most convenient way of building click packages for "
+"Ubuntu Touch."
+
+#: ../docs.ubports.com/appdev/index.rst:19
+msgid "Ubuntu UI-Toolkit"
+msgstr "Ubuntu UI-Toolkit"
+
+#: ../docs.ubports.com/appdev/index.rst:21
+msgid ""
+"Here you can find `the API documentation <https://api-docs.ubports.com/>`_ "
+"for the Ubuntu UI toolkit."
+msgstr ""
+"Here you can find `the API documentation <https://api-docs.ubports.com/>`_ "
+"for the Ubuntu UI toolkit."
+
+#: ../docs.ubports.com/appdev/index.rst:23
+msgid "`QML API <https://api-docs.ubports.com/sdk/apps/qml/index.html>`__"
+msgstr "`QML API <https://api-docs.ubports.com/sdk/apps/qml/index.html>`__"
+
+#: ../docs.ubports.com/appdev/index.rst:24
+msgid ""
+"`Cordova HTML5 API <https://api-docs.ubports.com/sdk/apps/html5/index."
+"html>`__"
+msgstr ""
+"`Cordova HTML5 API <https://api-docs.ubports.com/sdk/apps/html5/index."
+"html>`__"
+
+#: ../docs.ubports.com/appdev/index.rst:25
+msgid "`Click packages <https://click.readthedocs.io/en/latest/>`__"
+msgstr "`Click packages <https://click.readthedocs.io/en/latest/>`__"
+
+#: ../docs.ubports.com/appdev/index.rst:28
+msgid "Ubuntu SDK IDE (unsupported)"
+msgstr "Ubuntu SDK IDE (unsupported)"
+
+#: ../docs.ubports.com/appdev/index.rst:30
+msgid ""
+"The `Ubuntu SDK IDE <https://docs.ubuntu.com/phone/en/platform/sdk>`__ is no "
+"longer supported by Canonical, and UBports does not currently have the the "
+"time and manpower to get it to a working state."
+msgstr ""
+"The `Ubuntu SDK IDE <https://docs.ubuntu.com/phone/en/platform/sdk>`__ is no "
+"longer supported by Canonical, and UBports does not currently have the the "
+"time and manpower to get it to a working state."
+
+#: ../docs.ubports.com/appdev/index.rst:34
+msgid "It can still be installed in Ubuntu 16.04, but issues are expected."
+msgstr "It can still be installed in Ubuntu 16.04, but issues are expected."
+
+#: ../docs.ubports.com/appdev/index.rst:44
+msgid "Cookbook"
+msgstr "Cookbook"
+
+#: ../docs.ubports.com/appdev/index.rst:46
+msgid "A collection of external resources"
+msgstr "A collection of external resources"
+
+#: ../docs.ubports.com/userguide/advanceduse/adb.rst:2
+msgid "Shell access via adb"
+msgstr "Shell access via adb"
+
+#: ../docs.ubports.com/userguide/advanceduse/adb.rst:4
+msgid ""
+"You can put your UBports device into developer mode and access a Bash shell "
+"from your PC. This is useful for debugging or more advanced shell usage."
+msgstr ""
+"You can put your UBports device into developer mode and access a Bash shell "
+"from your PC. This is useful for debugging or more advanced shell usage."
+
+#: ../docs.ubports.com/userguide/advanceduse/adb.rst:8
+msgid "Install ADB"
+msgstr "Install ADB"
+
+#: ../docs.ubports.com/userguide/advanceduse/adb.rst:10
+msgid "First, you'll need ADB installed on your computer."
+msgstr "First, you'll need ADB installed on your computer."
+
+#: ../docs.ubports.com/userguide/advanceduse/adb.rst:12
+msgid "On Ubuntu::"
+msgstr "On Ubuntu::"
+
+#: ../docs.ubports.com/userguide/advanceduse/adb.rst:16
+msgid "On Fedora::"
+msgstr "On Fedora::"
+
+#: ../docs.ubports.com/userguide/advanceduse/adb.rst:20
+msgid "And on MacOS with `Homebrew <https://brew.sh>`_::"
+msgstr "And on MacOS with `Homebrew <https://brew.sh>`_::"
+
+#: ../docs.ubports.com/userguide/advanceduse/adb.rst:24
+msgid ""
+"For Windows, grab the command-line tools only package from `here <https://"
+"developer.android.com/studio/index.html#downloads>`_."
+msgstr ""
+"For Windows, grab the command-line tools only package from `here <https://"
+"developer.android.com/studio/index.html#downloads>`_."
+
+#: ../docs.ubports.com/userguide/advanceduse/adb.rst:27
+msgid "Enable developer mode"
+msgstr "Enable developer mode"
+
+#: ../docs.ubports.com/userguide/advanceduse/adb.rst:29
+msgid "Next, you'll need to turn on Developer Mode."
+msgstr "Next, you'll need to turn on Developer Mode."
+
+#: ../docs.ubports.com/userguide/advanceduse/adb.rst:31
+msgid "Reboot your device"
+msgstr "Reboot your device"
+
+#: ../docs.ubports.com/userguide/advanceduse/adb.rst:32
+msgid ""
+"Place your device into developer mode (Settings - About - Developer Mode - "
+"check the box to turn it on)"
+msgstr ""
+"Place your device into developer mode (Settings - About - Developer Mode - "
+"check the box to turn it on)"
+
+#: ../docs.ubports.com/userguide/advanceduse/adb.rst:33
+msgid "Plug the device into a computer with adb installed"
+msgstr "Plug the device into a computer with adb installed"
+
+#: ../docs.ubports.com/userguide/advanceduse/adb.rst:34
+msgid "Open a terminal and run ``adb devices``."
+msgstr "Open a terminal and run ``adb devices``."
+
+#: ../docs.ubports.com/userguide/advanceduse/adb.rst:37
+msgid ""
+"When you're done using the shell, it's a good idea to turn Developer Mode "
+"off again."
+msgstr ""
+"When you're done using the shell, it's a good idea to turn Developer Mode "
+"off again."
+
+#: ../docs.ubports.com/userguide/advanceduse/adb.rst:39
+msgid ""
+"If there's a device in the list here (The command doesn't print \"List of "
+"devices attached\" and a blank line), you are able to use ADB successfully. "
+"If not, continue to the next section."
+msgstr ""
+"If there's a device in the list here (The command doesn't print \"List of "
+"devices attached\" and a blank line), you are able to use ADB successfully. "
+"If not, continue to the next section."
+
+#: ../docs.ubports.com/userguide/advanceduse/adb.rst:42
+msgid "Add hardware IDs"
+msgstr "Add hardware IDs"
+
+#: ../docs.ubports.com/userguide/advanceduse/adb.rst:44
+msgid ""
+"ADB doesn't always know what devices on your computer it should or should "
+"not talk to. You can manually add the devices that it does not know how to "
+"talk to."
+msgstr ""
+"ADB doesn't always know what devices on your computer it should or should "
+"not talk to. You can manually add the devices that it does not know how to "
+"talk to."
+
+#: ../docs.ubports.com/userguide/advanceduse/adb.rst:46
+msgid ""
+"Just run the command for your selected device if it's below. Then, run ``adb "
+"kill-server`` followed by the command you were initially trying to run."
+msgstr ""
+"Just run the command for your selected device if it's below. Then, run ``adb "
+"kill-server`` followed by the command you were initially trying to run."
+
+#: ../docs.ubports.com/userguide/advanceduse/adb.rst:48
+msgid "Fairphone 2::"
+msgstr "Fairphone 2::"
+
+#: ../docs.ubports.com/userguide/advanceduse/adb.rst:52
+msgid "Oneplus One::"
+msgstr "Oneplus One::"
+
+#: ../docs.ubports.com/userguide/advanceduse/index.rst:2
+msgid "Advanced use"
+msgstr "Advanced use"
+
+#: ../docs.ubports.com/userguide/advanceduse/index.rst:4
+msgid ""
+"This section of the documentation details advanced tasks that power users "
+"may want to perform on their Ubuntu Touch device."
+msgstr ""
+"This section of the documentation details advanced tasks that power users "
+"may want to perform on their Ubuntu Touch device."
+
+#: ../docs.ubports.com/userguide/advanceduse/index.rst:7
+msgid ""
+"Some of these guides involve making your system image writable, which may "
+"break OTA updates. The guides may also reduce the overall security of your "
+"Ubuntu Touch device. Please consider these ramifications before hacking on "
+"your device too much!"
+msgstr ""
+"Some of these guides involve making your system image writable, which may "
+"break OTA updates. The guides may also reduce the overall security of your "
+"Ubuntu Touch device. Please consider these ramifications before hacking on "
+"your device too much!"
+
+#: ../docs.ubports.com/userguide/advanceduse/reverse-tethering.rst:2
+msgid "Reverse tethering"
+msgstr "Reverse tethering"
+
+#: ../docs.ubports.com/userguide/advanceduse/reverse-tethering.rst:4
+msgid ""
+"Some users may not have an available wifi connection for their phone nor a "
+"data subscription from their mobile provider. This short tutorial will help "
+"you to connect your Ubuntu Touch to your computer to access internet."
+msgstr ""
+"Some users may not have an available wifi connection for their phone nor a "
+"data subscription from their mobile provider. This short tutorial will help "
+"you to connect your Ubuntu Touch to your computer to access internet."
+
+#: ../docs.ubports.com/userguide/advanceduse/reverse-tethering.rst:7
+msgid ""
+"Prerequisite: Phone is connected to the computer with usb and developer mode "
+"enabled."
+msgstr ""
+"Prerequisite: Phone is connected to the computer with usb and developer mode "
+"enabled."
+
+#: ../docs.ubports.com/userguide/advanceduse/reverse-tethering.rst:10
+msgid "Steps"
+msgstr "Steps"
+
+#: ../docs.ubports.com/userguide/advanceduse/reverse-tethering.rst:12
+msgid "On phone: ``android-gadget-service enable rndis``"
+msgstr "On phone: ``android-gadget-service enable rndis``"
+
+#: ../docs.ubports.com/userguide/advanceduse/reverse-tethering.rst:14
+msgid "On computer: get your rndis ip address e.g:``hostname -I``"
+msgstr "On computer: get your rndis ip address e.g:``hostname -I``"
+
+#: ../docs.ubports.com/userguide/advanceduse/reverse-tethering.rst:16
+msgid "On phone:"
+msgstr "On phone:"
+
+#: ../docs.ubports.com/userguide/advanceduse/reverse-tethering.rst:18
+msgid "add gateway: ``sudo route add default gw YOUR_COMPUTER_RNDIS_IP``"
+msgstr "add gateway: ``sudo route add default gw YOUR_COMPUTER_RNDIS_IP``"
+
+#: ../docs.ubports.com/userguide/advanceduse/reverse-tethering.rst:20
+msgid ""
+"add nameservers: ``echo \"nameserver 8.8.8.8\" | sudo tee /etc/resolv.conf``"
+msgstr ""
+"add nameservers: ``echo \"nameserver 8.8.8.8\" | sudo tee /etc/resolv.conf``"
+
+#: ../docs.ubports.com/userguide/advanceduse/reverse-tethering.rst:22
+msgid "refresh dns table: ``resolvconf -u``"
+msgstr "refresh dns table: ``resolvconf -u``"
+
+#: ../docs.ubports.com/userguide/advanceduse/reverse-tethering.rst:24
+msgid "On computer:"
+msgstr "On computer:"
+
+#: ../docs.ubports.com/userguide/advanceduse/reverse-tethering.rst:26
+msgid ""
+"enable ip forwarding: ``echo 1 | sudo tee /proc/sys/net/ipv4/ip_forward``"
+msgstr ""
+"enable ip forwarding: ``echo 1 | sudo tee /proc/sys/net/ipv4/ip_forward``"
+
+#: ../docs.ubports.com/userguide/advanceduse/reverse-tethering.rst:28
+msgid ""
+"apply NAT: ``sudo iptables -t nat -A POSTROUTING -s 10.0.0.0/8 -o eth0 -j "
+"MASQUERADE``"
+msgstr ""
+"apply NAT: ``sudo iptables -t nat -A POSTROUTING -s 10.0.0.0/8 -o eth0 -j "
+"MASQUERADE``"
+
+#: ../docs.ubports.com/userguide/advanceduse/reverse-tethering.rst:32
+#: ../docs.ubports.com/userguide/advanceduse/screencasting.rst:72
+#: ../docs.ubports.com/userguide/advanceduse/ssh.rst:56
+msgid "References"
+msgstr "References"
+
+#: ../docs.ubports.com/userguide/advanceduse/reverse-tethering.rst:34
+msgid ""
+"askubuntu: https://askubuntu.com/questions/655321/ubuntu-touch-reverse-"
+"tethering-and-click-apps-updates"
+msgstr ""
+"askubuntu: https://askubuntu.com/questions/655321/ubuntu-touch-reverse-"
+"tethering-and-click-apps-updates"
+
+#: ../docs.ubports.com/userguide/advanceduse/screencasting.rst:2
+msgid "Screen Casting your UT device to your computer"
+msgstr "Screen Casting your UT device to your computer"
+
+#: ../docs.ubports.com/userguide/advanceduse/screencasting.rst:5
+msgid ""
+"Ubuntu Touch comes with a command line utility called ``mirscreencast`` "
+"which dumps screen frames to a file. The idea here is to stream UT display "
+"to a listening computer over the network or directy trough adb so that we "
+"can either watch it live or record it to a file."
+msgstr ""
+"Ubuntu Touch comes with a command line utility called ``mirscreencast`` "
+"which dumps screen frames to a file. The idea here is to stream UT display "
+"to a listening computer over the network or directy trough adb so that we "
+"can either watch it live or record it to a file."
+
+#: ../docs.ubports.com/userguide/advanceduse/screencasting.rst:9
+msgid "Using adb"
+msgstr "Using adb"
+
+#: ../docs.ubports.com/userguide/advanceduse/screencasting.rst:11
+msgid ""
+"You can catch output directly from ``adb exec-out`` command and forward it "
+"to mplayer::"
+msgstr ""
+"You can catch output directly from ``adb exec-out`` command and forward it "
+"to mplayer::"
+
+#: ../docs.ubports.com/userguide/advanceduse/screencasting.rst:15
+msgid ""
+"NB: ``timeout`` here is used in order to kill process properly on device "
+"( here 120 seconds ). Otherwise process still continuing even if killed on "
+"computer. You can reduce or increase frame per second with``--cap-interval`` "
+"(1 = 60fps, 2=30fps, ...)  and size of frames ``384 640`` means width=384 "
+"height=640"
+msgstr ""
+"NB: ``timeout`` here is used in order to kill process properly on device "
+"( here 120 seconds ). Otherwise process still continuing even if killed on "
+"computer. You can reduce or increase frame per second with``--cap-interval`` "
+"(1 = 60fps, 2=30fps, ...)  and size of frames ``384 640`` means width=384 "
+"height=640"
+
+#: ../docs.ubports.com/userguide/advanceduse/screencasting.rst:19
+msgid "Via network"
+msgstr "Via network"
+
+#: ../docs.ubports.com/userguide/advanceduse/screencasting.rst:22
+msgid "On receiver"
+msgstr "On receiver"
+
+#: ../docs.ubports.com/userguide/advanceduse/screencasting.rst:24
+msgid "For real time casting:"
+msgstr "For real time casting:"
+
+#: ../docs.ubports.com/userguide/advanceduse/screencasting.rst:27
+msgid ""
+"Prepare your computer to listen to a tcp port(here 1234) and forward raw "
+"stream to a video player (here mplayer) with a frame size of 384x640::"
+msgstr ""
+"Prepare your computer to listen to a tcp port(here 1234) and forward raw "
+"stream to a video player (here mplayer) with a frame size of 384x640::"
+
+#: ../docs.ubports.com/userguide/advanceduse/screencasting.rst:31
+msgid "For stream recording:"
+msgstr "For stream recording:"
+
+#: ../docs.ubports.com/userguide/advanceduse/screencasting.rst:33
+msgid ""
+"Prepare your computer to listen to a tcp port(here 1234), ungzip and forward "
+"raw stream to a video encoder (here mencoder)::"
+msgstr ""
+"Prepare your computer to listen to a tcp port(here 1234), ungzip and forward "
+"raw stream to a video encoder (here mencoder)::"
+
+#: ../docs.ubports.com/userguide/advanceduse/screencasting.rst:38
+msgid "On device"
+msgstr "On device"
+
+#: ../docs.ubports.com/userguide/advanceduse/screencasting.rst:40
+msgid ""
+"Forward and gzip stream with 60fps (--cap-interval 1) and frame size of "
+"384x640 to computer 10.42.0.209 on port 1234 ::"
+msgstr ""
+"Forward and gzip stream with 60fps (--cap-interval 1) and frame size of "
+"384x640 to computer 10.42.0.209 on port 1234 ::"
+
+#: ../docs.ubports.com/userguide/advanceduse/screencasting.rst:46
+msgid "Example script"
+msgstr "Example script"
+
+#: ../docs.ubports.com/userguide/advanceduse/screencasting.rst:48
+msgid ""
+"This script allows you to screen cast remote UT device to your local PC "
+"(must have ssh access to UT and mplayer installed on PC), run it on your "
+"computer::"
+msgstr ""
+"This script allows you to screen cast remote UT device to your local PC "
+"(must have ssh access to UT and mplayer installed on PC), run it on your "
+"computer::"
+
+#: ../docs.ubports.com/userguide/advanceduse/screencasting.rst:69
+msgid "You can download it here: :download:`files/mircast.sh`"
+msgstr "You can download it here: :download:`files/mircast.sh`"
+
+#: ../docs.ubports.com/userguide/advanceduse/screencasting.rst:74
+msgid "initial source: https://wiki.ubuntu.com/Touch/ScreenRecording"
+msgstr "initial source: https://wiki.ubuntu.com/Touch/ScreenRecording"
+
+#: ../docs.ubports.com/userguide/advanceduse/screencasting.rst:75
+msgid "demo: https://www.youtube.com/watch?v=HYm4RUwwo5Q"
+msgstr "demo: https://www.youtube.com/watch?v=HYm4RUwwo5Q"
+
+#: ../docs.ubports.com/userguide/advanceduse/ssh.rst:2
+msgid "Shell access via ssh"
+msgstr "Shell access via ssh"
+
+#: ../docs.ubports.com/userguide/advanceduse/ssh.rst:4
+msgid ""
+"You can use ssh to access a shell from your PC. This is useful for debugging "
+"or more advanced shell usage."
+msgstr ""
+"You can use ssh to access a shell from your PC. This is useful for debugging "
+"or more advanced shell usage."
+
+#: ../docs.ubports.com/userguide/advanceduse/ssh.rst:6
+msgid ""
+"You need a ssh key pair for this. Logging in via password is disabled by "
+"default."
+msgstr ""
+"You need a ssh key pair for this. Logging in via password is disabled by "
+"default."
+
+#: ../docs.ubports.com/userguide/advanceduse/ssh.rst:9
+msgid "Create your public key"
+msgstr "Create your public key"
+
+#: ../docs.ubports.com/userguide/advanceduse/ssh.rst:11
+msgid ""
+"If not already created, create your public key, default choices should be "
+"fine for LAN, you can leave empty password if you don't want to deal with it "
+"each time::"
+msgstr ""
+"If not already created, create your public key, default choices should be "
+"fine for LAN, you can leave empty password if you don't want to deal with it "
+"each time::"
+
+#: ../docs.ubports.com/userguide/advanceduse/ssh.rst:16
+msgid "Copy the public key to your device"
+msgstr "Copy the public key to your device"
+
+#: ../docs.ubports.com/userguide/advanceduse/ssh.rst:18
+msgid ""
+"You need then to transfer your public key to your device. There are multiple "
+"ways to do this. For example:"
+msgstr ""
+"You need then to transfer your public key to your device. There are multiple "
+"ways to do this. For example:"
+
+#: ../docs.ubports.com/userguide/advanceduse/ssh.rst:20
+msgid ""
+"Connect the ubports device and the PC with a USB cable. Then copy the file "
+"using your filemanager."
+msgstr ""
+"Connect the ubports device and the PC with a USB cable. Then copy the file "
+"using your filemanager."
+
+#: ../docs.ubports.com/userguide/advanceduse/ssh.rst:21
+msgid ""
+"Or transfer the key via the internet by mailing it to yourself, or uploading "
+"it to your own cloud storage, or webserver, etc."
+msgstr ""
+"Or transfer the key via the internet by mailing it to yourself, or uploading "
+"it to your own cloud storage, or webserver, etc."
+
+#: ../docs.ubports.com/userguide/advanceduse/ssh.rst:22
+msgid ""
+"You can also connect via :doc:`adb <adb>` and use the following command to "
+"copy it::"
+msgstr ""
+"You can also connect via :doc:`adb <adb>` and use the following command to "
+"copy it::"
+
+#: ../docs.ubports.com/userguide/advanceduse/ssh.rst:27
+msgid "Configure your device"
+msgstr "Configure your device"
+
+#: ../docs.ubports.com/userguide/advanceduse/ssh.rst:29
+msgid ""
+"Now you have the public key on the UBports device. Let's assume it's stored "
+"as ``/home/phablet/id_rsa.pub``. Use the terminal app or and adb connection "
+"to perform the following steps on your phone. ::"
+msgstr ""
+"Now you have the public key on the UBports device. Let's assume it's stored "
+"as ``/home/phablet/id_rsa.pub``. Use the terminal app or and adb connection "
+"to perform the following steps on your phone. ::"
+
+#: ../docs.ubports.com/userguide/advanceduse/ssh.rst:38
+msgid "Now start the ssh server::"
+msgstr "Now start the ssh server::"
+
+#: ../docs.ubports.com/userguide/advanceduse/ssh.rst:42
+msgid ""
+"To make sure the ssh server is automatically started in the future, execute::"
+msgstr ""
+"To make sure the ssh server is automatically started in the future, execute::"
+
+#: ../docs.ubports.com/userguide/advanceduse/ssh.rst:47
+msgid "Connect"
+msgstr "Connect"
+
+#: ../docs.ubports.com/userguide/advanceduse/ssh.rst:49
+msgid "Now everything is set up and you can use ``ssh`` ::"
+msgstr "Now everything is set up and you can use ``ssh`` ::"
+
+#: ../docs.ubports.com/userguide/advanceduse/ssh.rst:53
+msgid "Of course you can now also use ``scp`` or ``sshfs`` to transfer files."
+msgstr "Of course you can now also use ``scp`` or ``sshfs`` to transfer files."
+
+#: ../docs.ubports.com/userguide/advanceduse/ssh.rst:58
+msgid ""
+"`askubuntu.com: How can I access my Ubuntu phone over ssh? <https://"
+"askubuntu.com/questions/348714/how-can-i-access-my-ubuntu-phone-over-"
+"ssh/599041#599041>`_"
+msgstr ""
+"`askubuntu.com: How can I access my Ubuntu phone over ssh? <https://"
+"askubuntu.com/questions/348714/how-can-i-access-my-ubuntu-phone-over-"
+"ssh/599041#599041>`_"
+
+#: ../docs.ubports.com/userguide/advanceduse/ssh.rst:59
+msgid ""
+"`gurucubano: BQ Aquaris E 4.5 Ubuntu phone: How to get SSH access to the "
+"ubuntu-phone via Wifi <https://gurucubano.gitbooks.io/bq-aquaris-e-4-5-"
+"ubuntu-phone/content/en/chapter1.html>`_"
+msgstr ""
+"`gurucubano: BQ Aquaris E 4.5 Ubuntu phone: How to get SSH access to the "
+"ubuntu-phone via Wifi <https://gurucubano.gitbooks.io/bq-aquaris-e-4-5-"
+"ubuntu-phone/content/en/chapter1.html>`_"
+
+#: ../docs.ubports.com/userguide/advanceduse/switchchannel.rst:2
+msgid "Switch release channels"
+msgstr "Switch release channels"
+
+#: ../docs.ubports.com/userguide/dailyuse/index.rst:2
+msgid "Daily use"
+msgstr "Daily use"
+
+#: ../docs.ubports.com/userguide/dailyuse/index.rst:4
+msgid ""
+"This section of the documentation details common tasks that users may want "
+"to perform while using their Ubuntu Touch device."
+msgstr ""
+"This section of the documentation details common tasks that users may want "
+"to perform while using their Ubuntu Touch device."
+
+#: ../docs.ubports.com/userguide/dailyuse/libertine.rst:2
+msgid "Run desktop applications"
+msgstr "Run desktop applications"
+
+#: ../docs.ubports.com/userguide/dailyuse/libertine.rst:4
+msgid ""
+"Libertine allows you to use standard desktop applications in Ubuntu Touch."
+msgstr ""
+"Libertine allows you to use standard desktop applications in Ubuntu Touch."
+
+#: ../docs.ubports.com/userguide/dailyuse/libertine.rst:6
+msgid ""
+"To display and launch applications you need the *Desktop Apps Scope* which "
+"is available in the Canonical App Store. To install applications you need to "
+"use the commandline as described below."
+msgstr ""
+"To display and launch applications you need the *Desktop Apps Scope* which "
+"is available in the Canonical App Store. To install applications you need to "
+"use the commandline as described below."
+
+#: ../docs.ubports.com/userguide/dailyuse/libertine.rst:9
+msgid "Manage containers"
+msgstr "Manage containers"
+
+#: ../docs.ubports.com/userguide/dailyuse/libertine.rst:12
+msgid "Create a container"
+msgstr "Create a container"
+
+#: ../docs.ubports.com/userguide/dailyuse/libertine.rst:14
+msgid ""
+"The first step is to create a container where applications can be installed:"
+msgstr ""
+"The first step is to create a container where applications can be installed:"
+
+#: ../docs.ubports.com/userguide/dailyuse/libertine.rst:16
+msgid "``libertine-container-manager create -i CONTAINER-IDENTIFIER``"
+msgstr "``libertine-container-manager create -i CONTAINER-IDENTIFIER``"
+
+#: ../docs.ubports.com/userguide/dailyuse/libertine.rst:18
+msgid "You can add extra options such as:"
+msgstr "You can add extra options such as:"
+
+#: ../docs.ubports.com/userguide/dailyuse/libertine.rst:20
+msgid "``-n name`` name is a more user friendly name of the container"
+msgstr "``-n name`` name is a more user friendly name of the container"
+
+#: ../docs.ubports.com/userguide/dailyuse/libertine.rst:21
+msgid ""
+"``-t type`` type can be either ``chroot`` or ``lxc``. Default is ``chroot`` "
+"and is compatible with every device. If the kernel of your device supports "
+"it then ``lxc`` is suggested."
+msgstr ""
+"``-t type`` type can be either ``chroot`` or ``lxc``. Default is ``chroot`` "
+"and is compatible with every device. If the kernel of your device supports "
+"it then ``lxc`` is suggested."
+
+#: ../docs.ubports.com/userguide/dailyuse/libertine.rst:23
+msgid ""
+"The creating process can take some time, due to the size of the container "
+"(some hundred of megabytes)."
+msgstr ""
+"The creating process can take some time, due to the size of the container "
+"(some hundred of megabytes)."
+
+#: ../docs.ubports.com/userguide/dailyuse/libertine.rst:26
+msgid ""
+"The ``create`` command shown above cannot be run directly in the terminal "
+"app, due apparmor restrictions. You can run it from another device using "
+"either ``adb`` or ``ssh`` connection. Alternatively, you can run it from the "
+"terminal app using a loopback ssh connection running this command: ``ssh "
+"localhost``."
+msgstr ""
+"The ``create`` command shown above cannot be run directly in the terminal "
+"app, due apparmor restrictions. You can run it from another device using "
+"either ``adb`` or ``ssh`` connection. Alternatively, you can run it from the "
+"terminal app using a loopback ssh connection running this command: ``ssh "
+"localhost``."
+
+#: ../docs.ubports.com/userguide/dailyuse/libertine.rst:29
+msgid "List containers"
+msgstr "List containers"
+
+#: ../docs.ubports.com/userguide/dailyuse/libertine.rst:32
+msgid "To list all containers created run:"
+msgstr "To list all containers created run:"
+
+#: ../docs.ubports.com/userguide/dailyuse/libertine.rst:32
+msgid "``libertine-container-manager list``"
+msgstr "``libertine-container-manager list``"
+
+#: ../docs.ubports.com/userguide/dailyuse/libertine.rst:35
+msgid "Destroy a container"
+msgstr "Destroy a container"
+
+#: ../docs.ubports.com/userguide/dailyuse/libertine.rst:37
+msgid "``libertine-container-manager destroy -i CONTAINER-IDENTIFIER``"
+msgstr "``libertine-container-manager destroy -i CONTAINER-IDENTIFIER``"
+
+#: ../docs.ubports.com/userguide/dailyuse/libertine.rst:40
+msgid "Manage applications"
+msgstr "Manage applications"
+
+#: ../docs.ubports.com/userguide/dailyuse/libertine.rst:42
+msgid "Once a container is set up, you can list the installed applications:"
+msgstr "Once a container is set up, you can list the installed applications:"
+
+#: ../docs.ubports.com/userguide/dailyuse/libertine.rst:44
+msgid "``libertine-container-manager list-apps``"
+msgstr "``libertine-container-manager list-apps``"
+
+#: ../docs.ubports.com/userguide/dailyuse/libertine.rst:46
+msgid "Install a package:"
+msgstr "Install a package:"
+
+#: ../docs.ubports.com/userguide/dailyuse/libertine.rst:48
+msgid "``libertine-container-manage install-package -p PACKAGE-NAME``"
+msgstr "``libertine-container-manage install-package -p PACKAGE-NAME``"
+
+#: ../docs.ubports.com/userguide/dailyuse/libertine.rst:50
+msgid "Remove a package:"
+msgstr "Remove a package:"
+
+#: ../docs.ubports.com/userguide/dailyuse/libertine.rst:52
+msgid "``libertine-container-manager remove-package -p PACKAGE-NAME``"
+msgstr "``libertine-container-manager remove-package -p PACKAGE-NAME``"
+
+#: ../docs.ubports.com/userguide/dailyuse/libertine.rst:55
+msgid ""
+"If you have more than one container, then you can use the option ``-i "
+"CONTAINER-IDENTIFIER`` to specify for which container you want to perform an "
+"operation."
+msgstr ""
+"If you have more than one container, then you can use the option ``-i "
+"CONTAINER-IDENTIFIER`` to specify for which container you want to perform an "
+"operation."
+
+#: ../docs.ubports.com/userguide/dailyuse/libertine.rst:59
+msgid "Files"
+msgstr "Files"
+
+#: ../docs.ubports.com/userguide/dailyuse/libertine.rst:61
+msgid "Libertine applications do have access to these folders:"
+msgstr "Libertine applications do have access to these folders:"
+
+#: ../docs.ubports.com/userguide/dailyuse/libertine.rst:63
+msgid "Documents"
+msgstr "Documents"
+
+#: ../docs.ubports.com/userguide/dailyuse/libertine.rst:64
+msgid "Music"
+msgstr "Music"
+
+#: ../docs.ubports.com/userguide/dailyuse/libertine.rst:65
+msgid "Pictures"
+msgstr "Pictures"
+
+#: ../docs.ubports.com/userguide/dailyuse/libertine.rst:66
+msgid "Downloads"
+msgstr "Downloads"
+
+#: ../docs.ubports.com/userguide/dailyuse/libertine.rst:67
+msgid "Videos"
+msgstr "Videos"
+
+#: ../docs.ubports.com/userguide/dailyuse/libertine.rst:70
+msgid "Tipps"
+msgstr "Tipps"
+
+#: ../docs.ubports.com/userguide/dailyuse/libertine.rst:73
+msgid "Locations"
+msgstr "Locations"
+
+#: ../docs.ubports.com/userguide/dailyuse/libertine.rst:75
+msgid "For every container you create there will be two directories created:"
+msgstr "For every container you create there will be two directories created:"
+
+#: ../docs.ubports.com/userguide/dailyuse/libertine.rst:77
+msgid ""
+"A root directory ``~/.cache/libertine-container/CONTAINER-IDENTIFIER/rootfs/"
+"`` and"
+msgstr ""
+"A root directory ``~/.cache/libertine-container/CONTAINER-IDENTIFIER/rootfs/"
+"`` and"
+
+#: ../docs.ubports.com/userguide/dailyuse/libertine.rst:78
+msgid ""
+"a user directory ``~/.local/share/libertine-container/user-data/CONTAINER-"
+"IDENTIFIER/``"
+msgstr ""
+"a user directory ``~/.local/share/libertine-container/user-data/CONTAINER-"
+"IDENTIFIER/``"
+
+#: ../docs.ubports.com/userguide/dailyuse/libertine.rst:81
+msgid "Shell access"
+msgstr "Shell access"
+
+#: ../docs.ubports.com/userguide/dailyuse/libertine.rst:83
+msgid "To execute any arbitrary command as root inside the container run:"
+msgstr "To execute any arbitrary command as root inside the container run:"
+
+#: ../docs.ubports.com/userguide/dailyuse/libertine.rst:85
+msgid "``libertine-container-manager exec -c COMMAND``"
+msgstr "``libertine-container-manager exec -c COMMAND``"
+
+#: ../docs.ubports.com/userguide/dailyuse/libertine.rst:87
+msgid "For example, to get a shell into your container you can run:"
+msgstr "For example, to get a shell into your container you can run:"
+
+#: ../docs.ubports.com/userguide/dailyuse/libertine.rst:89
+msgid "``libertine-container-manager exec -c /bin/bash``"
+msgstr "``libertine-container-manager exec -c /bin/bash``"
+
+#: ../docs.ubports.com/userguide/dailyuse/libertine.rst:92
+msgid ""
+"When you launch bash in this way you will not get any specific feedback to "
+"confirm that you are now *inside* the container. You can check ``ls /`` to "
+"confirm for yourself that you are inside the container. The listing of ``ls /"
+"`` will be different inside and outside of the container."
+msgstr ""
+"When you launch bash in this way you will not get any specific feedback to "
+"confirm that you are now *inside* the container. You can check ``ls /`` to "
+"confirm for yourself that you are inside the container. The listing of ``ls /"
+"`` will be different inside and outside of the container."
+
+#: ../docs.ubports.com/userguide/dailyuse/libertine.rst:94
+msgid "To get a shell as user ``phablet`` run:"
+msgstr "To get a shell as user ``phablet`` run:"
+
+#: ../docs.ubports.com/userguide/dailyuse/libertine.rst:96
+msgid "``DISPLAY= libertine-launch -i CONTAINER-IDENTIFIER /bin/bash``"
+msgstr "``DISPLAY= libertine-launch -i CONTAINER-IDENTIFIER /bin/bash``"
+
+#: ../docs.ubports.com/userguide/dailyuse/libertine.rst:99
+msgid "Background"
+msgstr "Background"
+
+#: ../docs.ubports.com/userguide/dailyuse/libertine.rst:101
+msgid ""
+"A display server coordinates input and output of an operating system. Most "
+"Linux distributions today use the X server. Ubuntu Touch does not use X, "
+"but  a new display server called Mir. This means that standard X "
+"applications are not directly compatible with Ubuntu Touch. A compatibility "
+"layer called XMir resolves this. Libertine relies on XMir to display desktop "
+"applications."
+msgstr ""
+"A display server coordinates input and output of an operating system. Most "
+"Linux distributions today use the X server. Ubuntu Touch does not use X, "
+"but  a new display server called Mir. This means that standard X "
+"applications are not directly compatible with Ubuntu Touch. A compatibility "
+"layer called XMir resolves this. Libertine relies on XMir to display desktop "
+"applications."
+
+#: ../docs.ubports.com/userguide/dailyuse/libertine.rst:103
+msgid ""
+"Another challenge is that Ubuntu Touch system updates are released as OTA "
+"images. A consequence of this is that the root filesystem is read only. "
+"Libertine provides a container with a read-write filesystem to allow the "
+"installation of regular Linux desktop applications."
+msgstr ""
+"Another challenge is that Ubuntu Touch system updates are released as OTA "
+"images. A consequence of this is that the root filesystem is read only. "
+"Libertine provides a container with a read-write filesystem to allow the "
+"installation of regular Linux desktop applications."
+
+#: ../docs.ubports.com/userguide/install.rst:2
+msgid "Install Ubuntu Touch"
+msgstr "Install Ubuntu Touch"
+
+#: ../docs.ubports.com/userguide/install.rst:4
+msgid ""
+"Installing Ubuntu Touch is easy, and a lot of work has gone in to making the "
+"installation process less intimidating to less technical users. The UBports "
+"Installer is a nice graphical tool that you can use to install Ubuntu Touch "
+"on a `supported device <devices.ubports.com>`_ from your Linux, Mac or "
+"Windows computer."
+msgstr ""
+"Installing Ubuntu Touch is easy, and a lot of work has gone in to making the "
+"installation process less intimidating to less technical users. The UBports "
+"Installer is a nice graphical tool that you can use to install Ubuntu Touch "
+"on a `supported device <devices.ubports.com>`_ from your Linux, Mac or "
+"Windows computer."
+
+#: ../docs.ubports.com/userguide/install.rst:7
+msgid ""
+"If your're switching your device over from Android, you will not be able to "
+"keep any data that is currently on the device. Create an external backup if "
+"you want to keep it."
+msgstr ""
+"If your're switching your device over from Android, you will not be able to "
+"keep any data that is currently on the device. Create an external backup if "
+"you want to keep it."
+
+#: ../docs.ubports.com/userguide/install.rst:9
+msgid ""
+"Go to `the download page <https://github.com/ubports/ubports-installer/"
+"releases/latest>`_ and download the version of the installer for your "
+"operating system:"
+msgstr ""
+"Go to `the download page <https://github.com/ubports/ubports-installer/"
+"releases/latest>`_ and download the version of the installer for your "
+"operating system:"
+
+#: ../docs.ubports.com/userguide/install.rst:11
+msgid "Windows: ubports-installer-<version-number>.exe"
+msgstr "Windows: ubports-installer-<version-number>.exe"
+
+#: ../docs.ubports.com/userguide/install.rst:12
+msgid "macOS: ubports-installer-<version-number>.dmg"
+msgstr "macOS: ubports-installer-<version-number>.dmg"
+
+#: ../docs.ubports.com/userguide/install.rst:13
+msgid ""
+"Linux: ubports-installer-<version-number>.deb, ubports-installer-<version-"
+"number>.snap or ubports-installer-<version-number>.AppImage"
+msgstr ""
+"Linux: ubports-installer-<version-number>.deb, ubports-installer-<version-"
+"number>.snap or ubports-installer-<version-number>.AppImage"
+
+#: ../docs.ubports.com/userguide/install.rst:15
+msgid ""
+"Start the installer and follow the on-screen instructions that will walk you "
+"through the installation process. That's it! Have fun exploring Ubuntu Touch!"
+msgstr ""
+"Start the installer and follow the on-screen instructions that will walk you "
+"through the installation process. That's it! Have fun exploring Ubuntu Touch!"
+
+#: ../docs.ubports.com/userguide/install.rst:17
+msgid ""
+"If you're an experienced android developer and want to help us bring Ubuntu "
+"Touch to more devices, visit the :doc:`porting section </porting/"
+"introduction>`."
+msgstr ""
+"If you're an experienced android developer and want to help us bring Ubuntu "
+"Touch to more devices, visit the :doc:`porting section </porting/"
+"introduction>`."
+
+#: ../docs.ubports.com/userguide/install.rst:20
+msgid "Install on legacy Android devices"
+msgstr "Install on legacy Android devices"
+
+#: ../docs.ubports.com/userguide/install.rst:22
+msgid ""
+"While the installation process is fairly simple on most devices, some legacy "
+"Bq and Meizu devices require special steps due to their closed nature. This "
+"part of the guide does not apply to any other devices or bq devices that are "
+"running the Canonical version of Ubuntu Touch."
+msgstr ""
+"While the installation process is fairly simple on most devices, some legacy "
+"Bq and Meizu devices require special steps due to their closed nature. This "
+"part of the guide does not apply to any other devices or bq devices that are "
+"running the Canonical version of Ubuntu Touch."
+
+#: ../docs.ubports.com/userguide/install.rst:26
+msgid ""
+"This is more or less uncharted territory. If the device manufacturers don't "
+"want you to install an alternative operating system on their devices, "
+"there's not a lot we can do about it. The instructions below are very vague "
+"and should only be followed by experienced users. While we appreciate that "
+"lots of people want to use our OS, flashing a device with OEM tools "
+"shouldn't be done without a bit of know-how and plenty of research."
+msgstr ""
+"This is more or less uncharted territory. If the device manufacturers don't "
+"want you to install an alternative operating system on their devices, "
+"there's not a lot we can do about it. The instructions below are very vague "
+"and should only be followed by experienced users. While we appreciate that "
+"lots of people want to use our OS, flashing a device with OEM tools "
+"shouldn't be done without a bit of know-how and plenty of research."
+
+#: ../docs.ubports.com/userguide/install.rst:28
+msgid ""
+"BQ devices: Download the official Ubuntu Edition firmware from `their "
+"website <http://www.mibqyyo.com/en-download/>`_ and use their SP Flash Tool "
+"to flash it."
+msgstr ""
+"BQ devices: Download the official Ubuntu Edition firmware from `their "
+"website <http://www.mibqyyo.com/en-download/>`_ and use their SP Flash Tool "
+"to flash it."
+
+#: ../docs.ubports.com/userguide/install.rst:29
+msgid ""
+"Meizu devices: You are pretty much stuck on Flyme. For the MX4, there are "
+"some instructions floating around for downgrading your OS, gaining root with "
+"an exploit, unlocking your bootloader, and so on. We aren't going to link to "
+"them here for obvious reasons. The Pro5 is Exynos-based and has its own "
+"headaches. You're even more at your own risk on these."
+msgstr ""
+"Meizu devices: You are pretty much stuck on Flyme. For the MX4, there are "
+"some instructions floating around for downgrading your OS, gaining root with "
+"an exploit, unlocking your bootloader, and so on. We aren't going to link to "
+"them here for obvious reasons. The Pro5 is Exynos-based and has its own "
+"headaches. You're even more at your own risk on these."
+
+#: ../docs.ubports.com/userguide/install.rst:33
+msgid ""
+"BE VERY CAREFUL! Getting this part wrong can permanantly damage or brick "
+"your device. NEVER check the \"Format All\" option in SP Flash Tool and "
+"carefully read everything that it tells you. Some users have destroyed the "
+"partition that holds their hardware IDs and can no longer connect to Wi-Fi "
+"or cellular networks."
+msgstr ""
+"BE VERY CAREFUL! Getting this part wrong can permanantly damage or brick "
+"your device. NEVER check the \"Format All\" option in SP Flash Tool and "
+"carefully read everything that it tells you. Some users have destroyed the "
+"partition that holds their hardware IDs and can no longer connect to Wi-Fi "
+"or cellular networks."

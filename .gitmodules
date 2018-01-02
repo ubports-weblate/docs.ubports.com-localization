@@ -1,0 +1,3 @@
+[submodule "docs.ubports.com"]
+	path = docs.ubports.com
+	url = https://github.com/ubports/docs.ubports.com
